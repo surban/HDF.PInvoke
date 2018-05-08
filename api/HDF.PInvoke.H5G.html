@@ -1,0 +1,1023 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class H5G
+   | HDF.PInvoke.NETStandard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class H5G
+   | HDF.PInvoke.NETStandard ">
+    <meta name="generator" content="docfx 2.35.4.0">
+    
+    <link rel="shortcut icon" href="../images/hdf.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/hdf.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="HDF.PInvoke.H5G">
+  
+  
+  <h1 id="HDF_PInvoke_H5G" data-uid="HDF.PInvoke.H5G" class="text-break">Class H5G
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">H5G</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="HDF.PInvoke.html">HDF.PInvoke</a></h6>
+  <h6><strong>Assembly</strong>: HDF.PInvoke.dll</h6>
+  <h5 id="HDF_PInvoke_H5G_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class H5G : object</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="HDF_PInvoke_H5G_close_" data-uid="HDF.PInvoke.H5G.close*"></a>
+  <h4 id="HDF_PInvoke_H5G_close_System_Int64_" data-uid="HDF.PInvoke.H5G.close(System.Int64)">close(System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Closes the specified group.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-Close">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-Close</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 close(System.Int64 group_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">group_id</span></td>
+        <td><p>Group identifier to release.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5G_create_" data-uid="HDF.PInvoke.H5G.create*"></a>
+  <h4 id="HDF_PInvoke_H5G_create_System_Int64_System_Byte___System_Int64_System_Int64_System_Int64_" data-uid="HDF.PInvoke.H5G.create(System.Int64,System.Byte[],System.Int64,System.Int64,System.Int64)">create(System.Int64, Byte[], System.Int64, System.Int64, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Creates a new group and links it into the file.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-Create2">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-Create2</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 create(System.Int64 loc_id, byte[] name, System.Int64 lcpl_id = null, System.Int64 gcpl_id = null, System.Int64 gapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>File or group identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Absolute or relative name of the link to the
+new group</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lcpl_id</span></td>
+        <td><p>Link creation property list identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">gcpl_id</span></td>
+        <td><p>Group creation property list identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">gapl_id</span></td>
+        <td><p>Group access property list identifier</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns a group identifier if successful; otherwise returns
+a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5G_create_" data-uid="HDF.PInvoke.H5G.create*"></a>
+  <h4 id="HDF_PInvoke_H5G_create_System_Int64_System_String_System_Int64_System_Int64_System_Int64_" data-uid="HDF.PInvoke.H5G.create(System.Int64,System.String,System.Int64,System.Int64,System.Int64)">create(System.Int64, String, System.Int64, System.Int64, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Creates a new group and links it into the file.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-Create2">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-Create2</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 create(System.Int64 loc_id, string name, System.Int64 lcpl_id = null, System.Int64 gcpl_id = null, System.Int64 gapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>File or group identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Absolute or relative name of the link to the
+new group</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lcpl_id</span></td>
+        <td><p>Link creation property list identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">gcpl_id</span></td>
+        <td><p>Group creation property list identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">gapl_id</span></td>
+        <td><p>Group access property list identifier</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns a group identifier if successful; otherwise returns
+a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5G_create_System_Int64_System_String_System_Int64_System_Int64_System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5G_create_anon_" data-uid="HDF.PInvoke.H5G.create_anon*"></a>
+  <h4 id="HDF_PInvoke_H5G_create_anon_System_Int64_System_Int64_System_Int64_" data-uid="HDF.PInvoke.H5G.create_anon(System.Int64,System.Int64,System.Int64)">create_anon(System.Int64, System.Int64, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Creates a new empty group without linking it into the file structure.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-CreateAnon">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-CreateAnon</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 create_anon(System.Int64 loc_id, System.Int64 gcpl_id = null, System.Int64 gapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>File or group identifier specifying the file
+in which the new group is to be created</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">gcpl_id</span></td>
+        <td><p>Group creation property list identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">gapl_id</span></td>
+        <td><p>Group access property list identifier</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns a new group identifier if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5G_flush_" data-uid="HDF.PInvoke.H5G.flush*"></a>
+  <h4 id="HDF_PInvoke_H5G_flush_System_Int64_" data-uid="HDF.PInvoke.H5G.flush(System.Int64)">flush(System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Flushes all buffers associated with a group to disk.
+See <a href="https://www.hdfgroup.org/HDF5/docNewFeatures/FineTuneMDC/H5Gflush.htm">https://www.hdfgroup.org/HDF5/docNewFeatures/FineTuneMDC/H5Gflush.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 flush(System.Int64 group_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">group_id</span></td>
+        <td><p>Identifier of the group to be flushed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5G_get_create_plist_" data-uid="HDF.PInvoke.H5G.get_create_plist*"></a>
+  <h4 id="HDF_PInvoke_H5G_get_create_plist_System_Int64_" data-uid="HDF.PInvoke.H5G.get_create_plist(System.Int64)">get_create_plist(System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Gets a group creation property list identifier.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-GetCreatePlist">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-GetCreatePlist</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 get_create_plist(System.Int64 group_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">group_id</span></td>
+        <td><p>Identifier of the group.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns an identifier for the group’s creation property
+list if successful. Otherwise returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5G_get_info_" data-uid="HDF.PInvoke.H5G.get_info*"></a>
+  <h4 id="HDF_PInvoke_H5G_get_info_System_Int64_HDF_PInvoke_H5G_info_t__" data-uid="HDF.PInvoke.H5G.get_info(System.Int64,HDF.PInvoke.H5G.info_t@)">get_info(System.Int64, ref H5G.info_t)</h4>
+  <div class="markdown level1 summary"><p>Retrieves information about a group.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-GetInfo">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-GetInfo</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 get_info(System.Int64 loc_id, ref H5G.info_t ginfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Group identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5G.info_t.html">H5G.info_t</a></td>
+        <td><span class="parametername">ginfo</span></td>
+        <td><p>Struct in which group information is returned</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5G_get_info_by_idx_" data-uid="HDF.PInvoke.H5G.get_info_by_idx*"></a>
+  <h4 id="HDF_PInvoke_H5G_get_info_by_idx_System_Int64_System_Byte___HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_HDF_PInvoke_H5G_info_t__System_Int64_" data-uid="HDF.PInvoke.H5G.get_info_by_idx(System.Int64,System.Byte[],HDF.PInvoke.H5.index_t,HDF.PInvoke.H5.iter_order_t,System.UInt64,HDF.PInvoke.H5G.info_t@,System.Int64)">get_info_by_idx(System.Int64, Byte[], H5.index_t, H5.iter_order_t, System.UInt64, ref H5G.info_t, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Retrieves information about a group, according to the group’s
+position within an index.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-GetInfoByIdx">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-GetInfoByIdx</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 get_info_by_idx(System.Int64 loc_id, byte[] group_name, H5.index_t idx_type, H5.iter_order_t order, System.UInt64 n, ref H5G.info_t ginfo, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>File or group identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">group_name</span></td>
+        <td><p>Name of group containing group for which
+information is to be retrieved</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.index_t.html">H5.index_t</a></td>
+        <td><span class="parametername">idx_type</span></td>
+        <td><p>Index type</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.iter_order_t.html">H5.iter_order_t</a></td>
+        <td><span class="parametername">order</span></td>
+        <td><p>Order of the count in the index</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>Position in the index of the group for which
+information is retrieved</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5G.info_t.html">H5G.info_t</a></td>
+        <td><span class="parametername">ginfo</span></td>
+        <td><p>Struct in which group information is returned</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5G_get_info_by_idx_" data-uid="HDF.PInvoke.H5G.get_info_by_idx*"></a>
+  <h4 id="HDF_PInvoke_H5G_get_info_by_idx_System_Int64_System_String_HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_HDF_PInvoke_H5G_info_t__System_Int64_" data-uid="HDF.PInvoke.H5G.get_info_by_idx(System.Int64,System.String,HDF.PInvoke.H5.index_t,HDF.PInvoke.H5.iter_order_t,System.UInt64,HDF.PInvoke.H5G.info_t@,System.Int64)">get_info_by_idx(System.Int64, String, H5.index_t, H5.iter_order_t, System.UInt64, ref H5G.info_t, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Retrieves information about a group, according to the group’s
+position within an index.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-GetInfoByIdx">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-GetInfoByIdx</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 get_info_by_idx(System.Int64 loc_id, string group_name, H5.index_t idx_type, H5.iter_order_t order, System.UInt64 n, ref H5G.info_t ginfo, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>File or group identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group_name</span></td>
+        <td><p>Name of group containing group for which
+information is to be retrieved</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.index_t.html">H5.index_t</a></td>
+        <td><span class="parametername">idx_type</span></td>
+        <td><p>Index type</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.iter_order_t.html">H5.iter_order_t</a></td>
+        <td><span class="parametername">order</span></td>
+        <td><p>Order of the count in the index</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>Position in the index of the group for which
+information is retrieved</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5G.info_t.html">H5G.info_t</a></td>
+        <td><span class="parametername">ginfo</span></td>
+        <td><p>Struct in which group information is returned</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5G_get_info_by_idx_System_Int64_System_String_HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_HDF_PInvoke_H5G_info_t__System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5G_get_info_by_name_" data-uid="HDF.PInvoke.H5G.get_info_by_name*"></a>
+  <h4 id="HDF_PInvoke_H5G_get_info_by_name_System_Int64_System_Byte___HDF_PInvoke_H5G_info_t__System_Int64_" data-uid="HDF.PInvoke.H5G.get_info_by_name(System.Int64,System.Byte[],HDF.PInvoke.H5G.info_t@,System.Int64)">get_info_by_name(System.Int64, Byte[], ref H5G.info_t, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Retrieves information about a group.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-GetInfoByName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-GetInfoByName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 get_info_by_name(System.Int64 loc_id, byte[] name, ref H5G.info_t ginfo, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>File or group identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of group for which information is to be
+retrieved</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5G.info_t.html">H5G.info_t</a></td>
+        <td><span class="parametername">ginfo</span></td>
+        <td><p>Struct in which group information is returned</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5G_get_info_by_name_" data-uid="HDF.PInvoke.H5G.get_info_by_name*"></a>
+  <h4 id="HDF_PInvoke_H5G_get_info_by_name_System_Int64_System_String_HDF_PInvoke_H5G_info_t__System_Int64_" data-uid="HDF.PInvoke.H5G.get_info_by_name(System.Int64,System.String,HDF.PInvoke.H5G.info_t@,System.Int64)">get_info_by_name(System.Int64, String, ref H5G.info_t, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Retrieves information about a group.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-GetInfoByName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-GetInfoByName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 get_info_by_name(System.Int64 loc_id, string name, ref H5G.info_t ginfo, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>File or group identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of group for which information is to be
+retrieved</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5G.info_t.html">H5G.info_t</a></td>
+        <td><span class="parametername">ginfo</span></td>
+        <td><p>Struct in which group information is returned</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5G_get_info_by_name_System_Int64_System_String_HDF_PInvoke_H5G_info_t__System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strngs ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5G_open_" data-uid="HDF.PInvoke.H5G.open*"></a>
+  <h4 id="HDF_PInvoke_H5G_open_System_Int64_System_Byte___System_Int64_" data-uid="HDF.PInvoke.H5G.open(System.Int64,System.Byte[],System.Int64)">open(System.Int64, Byte[], System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Opens an existing group with a group access property list.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-Open2">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-Open2</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 open(System.Int64 loc_id, byte[] name, System.Int64 gapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>File or group identifier specifying the
+location of the group to be opened</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the group to open</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">gapl_id</span></td>
+        <td><p>Group access property list identifier</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns a group identifier if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5G_open_" data-uid="HDF.PInvoke.H5G.open*"></a>
+  <h4 id="HDF_PInvoke_H5G_open_System_Int64_System_String_System_Int64_" data-uid="HDF.PInvoke.H5G.open(System.Int64,System.String,System.Int64)">open(System.Int64, String, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Opens an existing group with a group access property list.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-Open2">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5G.html#Group-Open2</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 open(System.Int64 loc_id, string name, System.Int64 gapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>File or group identifier specifying the
+location of the group to be opened</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the group to open</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">gapl_id</span></td>
+        <td><p>Group access property list identifier</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns a group identifier if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5G_open_System_Int64_System_String_System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5G_refresh_" data-uid="HDF.PInvoke.H5G.refresh*"></a>
+  <h4 id="HDF_PInvoke_H5G_refresh_System_Int64_" data-uid="HDF.PInvoke.H5G.refresh(System.Int64)">refresh(System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Refreshes all buffers associated with a group.
+See <a href="https://www.hdfgroup.org/HDF5/docNewFeatures/FineTuneMDC/H5Grefresh.htm">https://www.hdfgroup.org/HDF5/docNewFeatures/FineTuneMDC/H5Grefresh.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 refresh(System.Int64 group_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">group_id</span></td>
+        <td><p>Identifier of the group to be refreshed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/surban/HDF.PInvoke/new/cb66ddeb2a9270731f7862d10e26a7fae46dbc3c/apiSpec/new?filename=HDF_PInvoke_H5G.md&amp;value=---%0Auid%3A%20HDF.PInvoke.H5G%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/surban/HDF.PInvoke/blob/cb66ddeb2a9270731f7862d10e26a7fae46dbc3c/HDF5/H5Gpublic.cs/#L32" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

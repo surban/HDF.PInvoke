@@ -1,0 +1,3267 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class H5A
+   | HDF.PInvoke.NETStandard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class H5A
+   | HDF.PInvoke.NETStandard ">
+    <meta name="generator" content="docfx 2.35.4.0">
+    
+    <link rel="shortcut icon" href="../images/hdf.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/hdf.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="HDF.PInvoke.H5A">
+  
+  
+  <h1 id="HDF_PInvoke_H5A" data-uid="HDF.PInvoke.H5A" class="text-break">Class H5A
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">H5A</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="HDF.PInvoke.html">HDF.PInvoke</a></h6>
+  <h6><strong>Assembly</strong>: HDF.PInvoke.dll</h6>
+  <h5 id="HDF_PInvoke_H5A_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class H5A : object</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="HDF_PInvoke_H5A_close_" data-uid="HDF.PInvoke.H5A.close*"></a>
+  <h4 id="HDF_PInvoke_H5A_close_System_Int64_" data-uid="HDF.PInvoke.H5A.close(System.Int64)">close(System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Closes the specified attribute.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Close">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Close</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 close(System.Int64 attr_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">attr_id</span></td>
+        <td><p>Attribute to release access to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_create_" data-uid="HDF.PInvoke.H5A.create*"></a>
+  <h4 id="HDF_PInvoke_H5A_create_System_Int64_System_Byte___System_Int64_System_Int64_System_Int64_System_Int64_" data-uid="HDF.PInvoke.H5A.create(System.Int64,System.Byte[],System.Int64,System.Int64,System.Int64,System.Int64)">create(System.Int64, Byte[], System.Int64, System.Int64, System.Int64, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Creates an attribute attached to a specified object.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Create2">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Create2</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 create(System.Int64 loc_id, byte[] attr_name, System.Int64 type_id, System.Int64 space_id, System.Int64 acpl_id = null, System.Int64 aapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location or object identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">attr_name</span></td>
+        <td><p>Attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">type_id</span></td>
+        <td><p>Attribute datatype identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">space_id</span></td>
+        <td><p>Attribute dataspace identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">acpl_id</span></td>
+        <td><p>Attribute creation property list identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">aapl_id</span></td>
+        <td><p>Attribute access property list identifier</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns an attribute identifier if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_create_" data-uid="HDF.PInvoke.H5A.create*"></a>
+  <h4 id="HDF_PInvoke_H5A_create_System_Int64_System_String_System_Int64_System_Int64_System_Int64_System_Int64_" data-uid="HDF.PInvoke.H5A.create(System.Int64,System.String,System.Int64,System.Int64,System.Int64,System.Int64)">create(System.Int64, String, System.Int64, System.Int64, System.Int64, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Creates an attribute attached to a specified object.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Create2">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Create2</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 create(System.Int64 loc_id, string attr_name, System.Int64 type_id, System.Int64 space_id, System.Int64 acpl_id = null, System.Int64 aapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location or object identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">attr_name</span></td>
+        <td><p>Attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">type_id</span></td>
+        <td><p>Attribute datatype identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">space_id</span></td>
+        <td><p>Attribute dataspace identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">acpl_id</span></td>
+        <td><p>Attribute creation property list identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">aapl_id</span></td>
+        <td><p>Attribute access property list identifier</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns an attribute identifier if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_create_System_Int64_System_String_System_Int64_System_Int64_System_Int64_System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_create_by_name_" data-uid="HDF.PInvoke.H5A.create_by_name*"></a>
+  <h4 id="HDF_PInvoke_H5A_create_by_name_System_Int64_System_Byte___System_Byte___System_Int64_System_Int64_System_Int64_System_Int64_System_Int64_" data-uid="HDF.PInvoke.H5A.create_by_name(System.Int64,System.Byte[],System.Byte[],System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)">create_by_name(System.Int64, Byte[], Byte[], System.Int64, System.Int64, System.Int64, System.Int64, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Creates an attribute attached to a specified object.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-CreateByName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-CreateByName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 create_by_name(System.Int64 loc_id, byte[] obj_name, byte[] attr_name, System.Int64 type_id, System.Int64 space_id, System.Int64 acpl_id = null, System.Int64 aapl_id = null, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location or object identifier; may be dataset
+or group</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name, relative to <code data-dev-comment-type="paramref" class="paramref">loc_id</code>,
+of object that attribute is to be attached to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">attr_name</span></td>
+        <td><p>Attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">type_id</span></td>
+        <td><p>Attribute datatype identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">space_id</span></td>
+        <td><p>Attribute dataspace identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">acpl_id</span></td>
+        <td><p>Attribute creation property list identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">aapl_id</span></td>
+        <td><p>Attribute access property list identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns an attribute identifier if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_create_by_name_" data-uid="HDF.PInvoke.H5A.create_by_name*"></a>
+  <h4 id="HDF_PInvoke_H5A_create_by_name_System_Int64_System_String_System_String_System_Int64_System_Int64_System_Int64_System_Int64_System_Int64_" data-uid="HDF.PInvoke.H5A.create_by_name(System.Int64,System.String,System.String,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)">create_by_name(System.Int64, String, String, System.Int64, System.Int64, System.Int64, System.Int64, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Creates an attribute attached to a specified object.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-CreateByName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-CreateByName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 create_by_name(System.Int64 loc_id, string obj_name, string attr_name, System.Int64 type_id, System.Int64 space_id, System.Int64 acpl_id = null, System.Int64 aapl_id = null, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location or object identifier; may be dataset
+or group</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name, relative to <code data-dev-comment-type="paramref" class="paramref">loc_id</code>,
+of object that attribute is to be attached to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">attr_name</span></td>
+        <td><p>Attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">type_id</span></td>
+        <td><p>Attribute datatype identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">space_id</span></td>
+        <td><p>Attribute dataspace identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">acpl_id</span></td>
+        <td><p>Attribute creation property list identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">aapl_id</span></td>
+        <td><p>Attribute access property list identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns an attribute identifier if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_create_by_name_System_Int64_System_String_System_String_System_Int64_System_Int64_System_Int64_System_Int64_System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_delete_" data-uid="HDF.PInvoke.H5A.delete*"></a>
+  <h4 id="HDF_PInvoke_H5A_delete_System_Int64_System_Byte___" data-uid="HDF.PInvoke.H5A.delete(System.Int64,System.Byte[])">delete(System.Int64, Byte[])</h4>
+  <div class="markdown level1 summary"><p>Deletes an attribute from a specified location.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Delete">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Delete</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 delete(System.Int64 loc_id, byte[] name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Identifier of the dataset, group, or named
+datatype to have the attribute deleted from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the attribute to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_delete_" data-uid="HDF.PInvoke.H5A.delete*"></a>
+  <h4 id="HDF_PInvoke_H5A_delete_System_Int64_System_String_" data-uid="HDF.PInvoke.H5A.delete(System.Int64,System.String)">delete(System.Int64, String)</h4>
+  <div class="markdown level1 summary"><p>Deletes an attribute from a specified location.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Delete">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Delete</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 delete(System.Int64 loc_id, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Identifier of the dataset, group, or named
+datatype to have the attribute deleted from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the attribute to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_delete_System_Int64_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_delete_by_idx_" data-uid="HDF.PInvoke.H5A.delete_by_idx*"></a>
+  <h4 id="HDF_PInvoke_H5A_delete_by_idx_System_Int64_System_Byte___HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_System_Int64_" data-uid="HDF.PInvoke.H5A.delete_by_idx(System.Int64,System.Byte[],HDF.PInvoke.H5.index_t,HDF.PInvoke.H5.iter_order_t,System.UInt64,System.Int64)">delete_by_idx(System.Int64, Byte[], H5.index_t, H5.iter_order_t, System.UInt64, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Deletes an attribute from an object according to index order.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-DeleteByIdx">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-DeleteByIdx</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 delete_by_idx(System.Int64 loc_id, byte[] obj_name, H5.index_t idx_type, H5.iter_order_t order, System.UInt64 n, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location or object identifier; may be dataset
+or group</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object, relative to location, from
+which attribute is to be removed</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.index_t.html">H5.index_t</a></td>
+        <td><span class="parametername">idx_type</span></td>
+        <td><p>Type of index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.iter_order_t.html">H5.iter_order_t</a></td>
+        <td><span class="parametername">order</span></td>
+        <td><p>Order in which to iterate over index</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>Offset within index</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_delete_by_idx_" data-uid="HDF.PInvoke.H5A.delete_by_idx*"></a>
+  <h4 id="HDF_PInvoke_H5A_delete_by_idx_System_Int64_System_String_HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_System_Int64_" data-uid="HDF.PInvoke.H5A.delete_by_idx(System.Int64,System.String,HDF.PInvoke.H5.index_t,HDF.PInvoke.H5.iter_order_t,System.UInt64,System.Int64)">delete_by_idx(System.Int64, String, H5.index_t, H5.iter_order_t, System.UInt64, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Deletes an attribute from an object according to index order.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-DeleteByIdx">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-DeleteByIdx</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 delete_by_idx(System.Int64 loc_id, string obj_name, H5.index_t idx_type, H5.iter_order_t order, System.UInt64 n, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location or object identifier; may be dataset
+or group</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object, relative to location, from
+which attribute is to be removed</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.index_t.html">H5.index_t</a></td>
+        <td><span class="parametername">idx_type</span></td>
+        <td><p>Type of index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.iter_order_t.html">H5.iter_order_t</a></td>
+        <td><span class="parametername">order</span></td>
+        <td><p>Order in which to iterate over index</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>Offset within index</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_delete_by_idx_System_Int64_System_String_HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_delete_by_name_" data-uid="HDF.PInvoke.H5A.delete_by_name*"></a>
+  <h4 id="HDF_PInvoke_H5A_delete_by_name_System_Int64_System_Byte___System_Byte___System_Int64_" data-uid="HDF.PInvoke.H5A.delete_by_name(System.Int64,System.Byte[],System.Byte[],System.Int64)">delete_by_name(System.Int64, Byte[], Byte[], System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Removes an attribute from a specified location.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-DeleteByName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-DeleteByName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 delete_by_name(System.Int64 loc_id, byte[] obj_name, byte[] attr_name, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location or object identifier; may be dataset
+or group</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object, relative to location, from
+which attribute is to be removed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">attr_name</span></td>
+        <td><p>Name of attribute to delete</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_delete_by_name_" data-uid="HDF.PInvoke.H5A.delete_by_name*"></a>
+  <h4 id="HDF_PInvoke_H5A_delete_by_name_System_Int64_System_String_System_String_System_Int64_" data-uid="HDF.PInvoke.H5A.delete_by_name(System.Int64,System.String,System.String,System.Int64)">delete_by_name(System.Int64, String, String, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Removes an attribute from a specified location.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-DeleteByName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-DeleteByName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 delete_by_name(System.Int64 loc_id, string obj_name, string attr_name, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location or object identifier; may be dataset
+or group</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object, relative to location, from
+which attribute is to be removed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">attr_name</span></td>
+        <td><p>Name of attribute to delete</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_delete_by_name_System_Int64_System_String_System_String_System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_exists_" data-uid="HDF.PInvoke.H5A.exists*"></a>
+  <h4 id="HDF_PInvoke_H5A_exists_System_Int64_System_Byte___" data-uid="HDF.PInvoke.H5A.exists(System.Int64,System.Byte[])">exists(System.Int64, Byte[])</h4>
+  <div class="markdown level1 summary"><p>Determines whether an attribute with a given name exists on an object.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Exists">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Exists</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 exists(System.Int64 obj_id, byte[] attr_name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">obj_id</span></td>
+        <td><p>Object identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">attr_name</span></td>
+        <td><p>Attribute name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>When successful, returns a positive value, for</p>
+<pre><code>TRUE</code></pre>, or 0 (zero), for <pre><code>FALSE</code></pre>. Otherwise
+<p>returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_exists_" data-uid="HDF.PInvoke.H5A.exists*"></a>
+  <h4 id="HDF_PInvoke_H5A_exists_System_Int64_System_String_" data-uid="HDF.PInvoke.H5A.exists(System.Int64,System.String)">exists(System.Int64, String)</h4>
+  <div class="markdown level1 summary"><p>Determines whether an attribute with a given name exists on an object.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Exists">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Exists</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 exists(System.Int64 obj_id, string attr_name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">obj_id</span></td>
+        <td><p>Object identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">attr_name</span></td>
+        <td><p>Attribute name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>When successful, returns a positive value, for</p>
+<pre><code>TRUE</code></pre>, or 0 (zero), for <pre><code>FALSE</code></pre>. Otherwise
+<p>returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_exists_System_Int64_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_exists_by_name_" data-uid="HDF.PInvoke.H5A.exists_by_name*"></a>
+  <h4 id="HDF_PInvoke_H5A_exists_by_name_System_Int64_System_Byte___System_Byte___System_Int64_" data-uid="HDF.PInvoke.H5A.exists_by_name(System.Int64,System.Byte[],System.Byte[],System.Int64)">exists_by_name(System.Int64, Byte[], Byte[], System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Determines whether an attribute with a given name exists on an object.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-ExistsByName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-ExistsByName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 exists_by_name(System.Int64 loc_id, byte[] obj_name, byte[] attr_name, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Object name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">attr_name</span></td>
+        <td><p>Attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list identifier</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>When successful, returns a positive value, for</p>
+<pre><code>TRUE</code></pre>, or 0 (zero), for <pre><code>FALSE</code></pre>. Otherwise
+<p>returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_exists_by_name_" data-uid="HDF.PInvoke.H5A.exists_by_name*"></a>
+  <h4 id="HDF_PInvoke_H5A_exists_by_name_System_Int64_System_String_System_String_System_Int64_" data-uid="HDF.PInvoke.H5A.exists_by_name(System.Int64,System.String,System.String,System.Int64)">exists_by_name(System.Int64, String, String, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Determines whether an attribute with a given name exists on an object.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-ExistsByName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-ExistsByName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 exists_by_name(System.Int64 loc_id, string obj_name, string attr_name, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Object name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">attr_name</span></td>
+        <td><p>Attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list identifier</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>When successful, returns a positive value, for</p>
+<pre><code>TRUE</code></pre>, or 0 (zero), for <pre><code>FALSE</code></pre>. Otherwise
+<p>returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_exists_by_name_System_Int64_System_String_System_String_System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ANSI strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_get_create_plist_" data-uid="HDF.PInvoke.H5A.get_create_plist*"></a>
+  <h4 id="HDF_PInvoke_H5A_get_create_plist_System_Int64_" data-uid="HDF.PInvoke.H5A.get_create_plist(System.Int64)">get_create_plist(System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Gets an attribute creation property list identifier.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetCreatePlist">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetCreatePlist</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 get_create_plist(System.Int64 attr_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">attr_id</span></td>
+        <td><p>Identifier of the attribute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns an identifier for the attribute’s creation property
+list if successful. Otherwise returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_get_info_" data-uid="HDF.PInvoke.H5A.get_info*"></a>
+  <h4 id="HDF_PInvoke_H5A_get_info_System_Int64_HDF_PInvoke_H5A_info_t__" data-uid="HDF.PInvoke.H5A.get_info(System.Int64,HDF.PInvoke.H5A.info_t@)">get_info(System.Int64, ref H5A.info_t)</h4>
+  <div class="markdown level1 summary"><p>Retrieves attribute information, by attribute identifier.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetInfo">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetInfo</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 get_info(System.Int64 attr_id, ref H5A.info_t ainfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">attr_id</span></td>
+        <td><p>Attribute identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5A.info_t.html">H5A.info_t</a></td>
+        <td><span class="parametername">ainfo</span></td>
+        <td><p>Attribute information struct</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_get_info_by_idx_" data-uid="HDF.PInvoke.H5A.get_info_by_idx*"></a>
+  <h4 id="HDF_PInvoke_H5A_get_info_by_idx_System_Int64_System_Byte___HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_HDF_PInvoke_H5A_info_t__System_Int64_" data-uid="HDF.PInvoke.H5A.get_info_by_idx(System.Int64,System.Byte[],HDF.PInvoke.H5.index_t,HDF.PInvoke.H5.iter_order_t,System.UInt64,HDF.PInvoke.H5A.info_t@,System.Int64)">get_info_by_idx(System.Int64, Byte[], H5.index_t, H5.iter_order_t, System.UInt64, ref H5A.info_t, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Retrieves attribute information, by attribute index position.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetInfoByIdx">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetInfoByIdx</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 get_info_by_idx(System.Int64 loc_id, byte[] obj_name, H5.index_t idx_type, H5.iter_order_t order, System.UInt64 n, ref H5A.info_t ainfo, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location of object to which attribute is
+attached</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object to which attribute is
+attached, relative to location</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.index_t.html">H5.index_t</a></td>
+        <td><span class="parametername">idx_type</span></td>
+        <td><p>Type of index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.iter_order_t.html">H5.iter_order_t</a></td>
+        <td><span class="parametername">order</span></td>
+        <td><p>Index traversal order</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>Attribute’s position in index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5A.info_t.html">H5A.info_t</a></td>
+        <td><span class="parametername">ainfo</span></td>
+        <td><p>Struct containing returned attribute
+information</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_get_info_by_idx_" data-uid="HDF.PInvoke.H5A.get_info_by_idx*"></a>
+  <h4 id="HDF_PInvoke_H5A_get_info_by_idx_System_Int64_System_String_HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_HDF_PInvoke_H5A_info_t__System_Int64_" data-uid="HDF.PInvoke.H5A.get_info_by_idx(System.Int64,System.String,HDF.PInvoke.H5.index_t,HDF.PInvoke.H5.iter_order_t,System.UInt64,HDF.PInvoke.H5A.info_t@,System.Int64)">get_info_by_idx(System.Int64, String, H5.index_t, H5.iter_order_t, System.UInt64, ref H5A.info_t, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Retrieves attribute information, by attribute index position.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetInfoByIdx">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetInfoByIdx</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 get_info_by_idx(System.Int64 loc_id, string obj_name, H5.index_t idx_type, H5.iter_order_t order, System.UInt64 n, ref H5A.info_t ainfo, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location of object to which attribute is
+attached</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object to which attribute is
+attached, relative to location</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.index_t.html">H5.index_t</a></td>
+        <td><span class="parametername">idx_type</span></td>
+        <td><p>Type of index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.iter_order_t.html">H5.iter_order_t</a></td>
+        <td><span class="parametername">order</span></td>
+        <td><p>Index traversal order</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>Attribute’s position in index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5A.info_t.html">H5A.info_t</a></td>
+        <td><span class="parametername">ainfo</span></td>
+        <td><p>Struct containing returned attribute
+information</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_get_info_by_idx_System_Int64_System_String_HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_HDF_PInvoke_H5A_info_t__System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_get_info_by_name_" data-uid="HDF.PInvoke.H5A.get_info_by_name*"></a>
+  <h4 id="HDF_PInvoke_H5A_get_info_by_name_System_Int64_System_Byte___System_Byte___HDF_PInvoke_H5A_info_t__System_Int64_" data-uid="HDF.PInvoke.H5A.get_info_by_name(System.Int64,System.Byte[],System.Byte[],HDF.PInvoke.H5A.info_t@,System.Int64)">get_info_by_name(System.Int64, Byte[], Byte[], ref H5A.info_t, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Retrieves attribute information, by attribute name.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetInfoByName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetInfoByName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 get_info_by_name(System.Int64 loc_id, byte[] obj_name, byte[] attr_name, ref H5A.info_t ainfo, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location of object to which attribute is
+attached</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object to which attribute is
+attached, relative to location</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">attr_name</span></td>
+        <td><p>Attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5A.info_t.html">H5A.info_t</a></td>
+        <td><span class="parametername">ainfo</span></td>
+        <td><p>Struct containing returned attribute
+information</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_get_info_by_name_" data-uid="HDF.PInvoke.H5A.get_info_by_name*"></a>
+  <h4 id="HDF_PInvoke_H5A_get_info_by_name_System_Int64_System_String_System_String_HDF_PInvoke_H5A_info_t__System_Int64_" data-uid="HDF.PInvoke.H5A.get_info_by_name(System.Int64,System.String,System.String,HDF.PInvoke.H5A.info_t@,System.Int64)">get_info_by_name(System.Int64, String, String, ref H5A.info_t, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Retrieves attribute information, by attribute name.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetInfoByName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetInfoByName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 get_info_by_name(System.Int64 loc_id, string obj_name, string attr_name, ref H5A.info_t ainfo, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location of object to which attribute is
+attached</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object to which attribute is
+attached, relative to location</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">attr_name</span></td>
+        <td><p>Attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5A.info_t.html">H5A.info_t</a></td>
+        <td><span class="parametername">ainfo</span></td>
+        <td><p>Struct containing returned attribute
+information</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_get_info_by_name_System_Int64_System_String_System_String_HDF_PInvoke_H5A_info_t__System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_get_name_" data-uid="HDF.PInvoke.H5A.get_name*"></a>
+  <h4 id="HDF_PInvoke_H5A_get_name_System_Int64_System_IntPtr_StringBuilder_" data-uid="HDF.PInvoke.H5A.get_name(System.Int64,System.IntPtr,StringBuilder)">get_name(System.Int64, System.IntPtr, StringBuilder)</h4>
+  <div class="markdown level1 summary"><p>Gets an attribute name.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.IntPtr get_name(System.Int64 attr_id, System.IntPtr size, StringBuilder name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">attr_id</span></td>
+        <td><p>Identifier of the attribute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>The size of the buffer to store the name
+in.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">StringBuilder</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Buffer to store name in.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><p>Returns the length of the attribute's name, which may be
+longer than <pre><code>buf_size</code></pre>, if successful. Otherwise returns
+a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_get_name_System_Int64_System_IntPtr_StringBuilder__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_get_name_" data-uid="HDF.PInvoke.H5A.get_name*"></a>
+  <h4 id="HDF_PInvoke_H5A_get_name_System_Int64_System_IntPtr_System_Byte___" data-uid="HDF.PInvoke.H5A.get_name(System.Int64,System.IntPtr,System.Byte[])">get_name(System.Int64, System.IntPtr, Byte[])</h4>
+  <div class="markdown level1 summary"><p>Gets an attribute name.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.IntPtr get_name(System.Int64 attr_id, System.IntPtr size, byte[] name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">attr_id</span></td>
+        <td><p>Identifier of the attribute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>The size of the buffer to store the name
+in.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Buffer to store name in.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><p>Returns the length of the attribute's name, which may be
+longer than <pre><code>buf_size</code></pre>, if successful. Otherwise returns
+a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_get_name_by_idx_" data-uid="HDF.PInvoke.H5A.get_name_by_idx*"></a>
+  <h4 id="HDF_PInvoke_H5A_get_name_by_idx_System_Int64_System_Byte___HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_System_Byte___System_IntPtr_System_Int64_" data-uid="HDF.PInvoke.H5A.get_name_by_idx(System.Int64,System.Byte[],HDF.PInvoke.H5.index_t,HDF.PInvoke.H5.iter_order_t,System.UInt64,System.Byte[],System.IntPtr,System.Int64)">get_name_by_idx(System.Int64, Byte[], H5.index_t, H5.iter_order_t, System.UInt64, Byte[], System.IntPtr, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Gets an attribute name, by attribute index position.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetNameByIdx">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetNameByIdx</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.IntPtr get_name_by_idx(System.Int64 loc_id, byte[] obj_name, H5.index_t idx_type, H5.iter_order_t order, System.UInt64 n, byte[] name, System.IntPtr size, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location of object to which attribute is
+attached</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object to which attribute is
+attached, relative to location</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.index_t.html">H5.index_t</a></td>
+        <td><span class="parametername">idx_type</span></td>
+        <td><p>Type of index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.iter_order_t.html">H5.iter_order_t</a></td>
+        <td><span class="parametername">order</span></td>
+        <td><p>Index traversal order</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>Attribute’s position in index</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>Size, in bytes, of attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><p>Returns attribute name size, in bytes, if successful;
+otherwise returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_get_name_by_idx_" data-uid="HDF.PInvoke.H5A.get_name_by_idx*"></a>
+  <h4 id="HDF_PInvoke_H5A_get_name_by_idx_System_Int64_System_String_HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_IntPtr_System_IntPtr_System_Int64_" data-uid="HDF.PInvoke.H5A.get_name_by_idx(System.Int64,System.String,HDF.PInvoke.H5.index_t,HDF.PInvoke.H5.iter_order_t,System.UInt64,IntPtr,System.IntPtr,System.Int64)">get_name_by_idx(System.Int64, String, H5.index_t, H5.iter_order_t, System.UInt64, IntPtr, System.IntPtr, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Gets an attribute name, by attribute index position.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetNameByIdx">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetNameByIdx</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.IntPtr get_name_by_idx(System.Int64 loc_id, string obj_name, H5.index_t idx_type, H5.iter_order_t order, System.UInt64 n, IntPtr name, System.IntPtr size, System.Int64 lapl_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location of object to which attribute is
+attached</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object to which attribute is
+attached, relative to location</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.index_t.html">H5.index_t</a></td>
+        <td><span class="parametername">idx_type</span></td>
+        <td><p>Type of index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.iter_order_t.html">H5.iter_order_t</a></td>
+        <td><span class="parametername">order</span></td>
+        <td><p>Index traversal order</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>Attribute’s position in index</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>Size, in bytes, of attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><p>Returns attribute name size, in bytes, if successful;
+otherwise returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_get_name_by_idx_System_Int64_System_String_HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_IntPtr_System_IntPtr_System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_get_name_by_idx_" data-uid="HDF.PInvoke.H5A.get_name_by_idx*"></a>
+  <h4 id="HDF_PInvoke_H5A_get_name_by_idx_System_Int64_System_String_HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_StringBuilder_System_IntPtr_System_Int64_" data-uid="HDF.PInvoke.H5A.get_name_by_idx(System.Int64,System.String,HDF.PInvoke.H5.index_t,HDF.PInvoke.H5.iter_order_t,System.UInt64,StringBuilder,System.IntPtr,System.Int64)">get_name_by_idx(System.Int64, String, H5.index_t, H5.iter_order_t, System.UInt64, StringBuilder, System.IntPtr, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Gets an attribute name, by attribute index position.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetNameByIdx">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetNameByIdx</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.IntPtr get_name_by_idx(System.Int64 loc_id, string obj_name, H5.index_t idx_type, H5.iter_order_t order, System.UInt64 n, StringBuilder name, System.IntPtr size, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location of object to which attribute is
+attached</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object to which attribute is
+attached, relative to location</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.index_t.html">H5.index_t</a></td>
+        <td><span class="parametername">idx_type</span></td>
+        <td><p>Type of index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.iter_order_t.html">H5.iter_order_t</a></td>
+        <td><span class="parametername">order</span></td>
+        <td><p>Index traversal order</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>Attribute’s position in index</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">StringBuilder</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>Size, in bytes, of attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><p>Returns attribute name size, in bytes, if successful;
+otherwise returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_get_name_by_idx_System_Int64_System_String_HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_StringBuilder_System_IntPtr_System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_get_space_" data-uid="HDF.PInvoke.H5A.get_space*"></a>
+  <h4 id="HDF_PInvoke_H5A_get_space_System_Int64_" data-uid="HDF.PInvoke.H5A.get_space(System.Int64)">get_space(System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Gets a copy of the dataspace for an attribute.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetSpace">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetSpace</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 get_space(System.Int64 attr_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">attr_id</span></td>
+        <td><p>Identifier of an attribute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns attribute dataspace identifier if successful;
+otherwise returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_get_storage_size_" data-uid="HDF.PInvoke.H5A.get_storage_size*"></a>
+  <h4 id="HDF_PInvoke_H5A_get_storage_size_System_Int64_" data-uid="HDF.PInvoke.H5A.get_storage_size(System.Int64)">get_storage_size(System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the amount of storage required for an attribute.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetStorageSize">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetStorageSize</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.UInt64 get_storage_size(System.Int64 attr_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">attr_id</span></td>
+        <td><p>Identifier of the attribute to query.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><p>Returns the amount of storage size allocated for the
+attribute; otherwise returns 0 (zero).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_get_type_" data-uid="HDF.PInvoke.H5A.get_type*"></a>
+  <h4 id="HDF_PInvoke_H5A_get_type_System_Int64_" data-uid="HDF.PInvoke.H5A.get_type(System.Int64)">get_type(System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the amount of storage required for an attribute.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetType">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-GetType</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 get_type(System.Int64 attr_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">attr_id</span></td>
+        <td><p>Identifier of an attribute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns a datatype identifier if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_iterate_" data-uid="HDF.PInvoke.H5A.iterate*"></a>
+  <h4 id="HDF_PInvoke_H5A_iterate_System_Int64_HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64__HDF_PInvoke_H5A_operator_t_IntPtr_" data-uid="HDF.PInvoke.H5A.iterate(System.Int64,HDF.PInvoke.H5.index_t,HDF.PInvoke.H5.iter_order_t,System.UInt64@,HDF.PInvoke.H5A.operator_t,IntPtr)">iterate(System.Int64, H5.index_t, H5.iter_order_t, ref System.UInt64, H5A.operator_t, IntPtr)</h4>
+  <div class="markdown level1 summary"><p>Calls user-defined function for each attribute on an object.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Iterate2">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Iterate2</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 iterate(System.Int64 obj_id, H5.index_t idx_type, H5.iter_order_t order, ref System.UInt64 n, H5A.operator_t op, IntPtr op_data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">obj_id</span></td>
+        <td><p>Identifier for object to which attributes are
+attached; may be group, dataset, or named datatype.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.index_t.html">H5.index_t</a></td>
+        <td><span class="parametername">idx_type</span></td>
+        <td><p>Type of index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.iter_order_t.html">H5.iter_order_t</a></td>
+        <td><span class="parametername">order</span></td>
+        <td><p>Order in which to iterate over index</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>Initial and returned offset within index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5A.operator_t.html">H5A.operator_t</a></td>
+        <td><span class="parametername">op</span></td>
+        <td><p>User-defined function to pass each attribute to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">op_data</span></td>
+        <td><p>User data to pass through to and to be
+returned by iterator operator function</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value. Further note that this function returns
+the return value of the last operator if it was non-zero, which
+can be a negative value, zero if all attributes were processed, or
+a positive value indicating short-circuit success</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_iterate_by_name_" data-uid="HDF.PInvoke.H5A.iterate_by_name*"></a>
+  <h4 id="HDF_PInvoke_H5A_iterate_by_name_System_Int64_System_Byte___HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64__HDF_PInvoke_H5A_operator_t_IntPtr_System_Int64_" data-uid="HDF.PInvoke.H5A.iterate_by_name(System.Int64,System.Byte[],HDF.PInvoke.H5.index_t,HDF.PInvoke.H5.iter_order_t,System.UInt64@,HDF.PInvoke.H5A.operator_t,IntPtr,System.Int64)">iterate_by_name(System.Int64, Byte[], H5.index_t, H5.iter_order_t, ref System.UInt64, H5A.operator_t, IntPtr, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Calls user-defined function for each attribute on an object.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-IterateByName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-IterateByName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 iterate_by_name(System.Int64 loc_id, byte[] obj_name, H5.index_t idx_type, H5.iter_order_t order, ref System.UInt64 n, H5A.operator_t op, IntPtr op_data, System.Int64 lapd_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location or object identifier; may be dataset
+or group</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object, relative to location</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.index_t.html">H5.index_t</a></td>
+        <td><span class="parametername">idx_type</span></td>
+        <td><p>Type of index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.iter_order_t.html">H5.iter_order_t</a></td>
+        <td><span class="parametername">order</span></td>
+        <td><p>Order in which to iterate over index</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>Initial and returned offset within index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5A.operator_t.html">H5A.operator_t</a></td>
+        <td><span class="parametername">op</span></td>
+        <td><p>User-defined function to pass each attribute to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">op_data</span></td>
+        <td><p>User data to pass through to and to be
+returned by iterator operator function</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapd_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value. Further note that this function returns
+the return value of the last operator if it was non-zero, which can
+be a negative value, zero if all attributes were processed, or a
+positive value indicating short-circuit success</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_iterate_by_name_" data-uid="HDF.PInvoke.H5A.iterate_by_name*"></a>
+  <h4 id="HDF_PInvoke_H5A_iterate_by_name_System_Int64_System_String_HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64__HDF_PInvoke_H5A_operator_t_IntPtr_System_Int64_" data-uid="HDF.PInvoke.H5A.iterate_by_name(System.Int64,System.String,HDF.PInvoke.H5.index_t,HDF.PInvoke.H5.iter_order_t,System.UInt64@,HDF.PInvoke.H5A.operator_t,IntPtr,System.Int64)">iterate_by_name(System.Int64, String, H5.index_t, H5.iter_order_t, ref System.UInt64, H5A.operator_t, IntPtr, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Calls user-defined function for each attribute on an object.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-IterateByName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-IterateByName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 iterate_by_name(System.Int64 loc_id, string obj_name, H5.index_t idx_type, H5.iter_order_t order, ref System.UInt64 n, H5A.operator_t op, IntPtr op_data, System.Int64 lapd_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location or object identifier; may be dataset
+or group</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object, relative to location</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.index_t.html">H5.index_t</a></td>
+        <td><span class="parametername">idx_type</span></td>
+        <td><p>Type of index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.iter_order_t.html">H5.iter_order_t</a></td>
+        <td><span class="parametername">order</span></td>
+        <td><p>Order in which to iterate over index</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>Initial and returned offset within index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5A.operator_t.html">H5A.operator_t</a></td>
+        <td><span class="parametername">op</span></td>
+        <td><p>User-defined function to pass each attribute to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">op_data</span></td>
+        <td><p>User data to pass through to and to be
+returned by iterator operator function</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapd_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value. Further note that this function returns
+the return value of the last operator if it was non-zero, which can
+be a negative value, zero if all attributes were processed, or a
+positive value indicating short-circuit success</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_iterate_by_name_System_Int64_System_String_HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64__HDF_PInvoke_H5A_operator_t_IntPtr_System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ANSI strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_open_" data-uid="HDF.PInvoke.H5A.open*"></a>
+  <h4 id="HDF_PInvoke_H5A_open_System_Int64_System_Byte___System_Int64_" data-uid="HDF.PInvoke.H5A.open(System.Int64,System.Byte[],System.Int64)">open(System.Int64, Byte[], System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Opens an attribute for an object specified by object identifier
+and attribute name.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Open">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Open</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 open(System.Int64 obj_id, byte[] attr_name, System.Int64 aapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">obj_id</span></td>
+        <td><p>Identifer for object to which attribute is
+attached</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">attr_name</span></td>
+        <td><p>Name of attribute to open</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">aapl_id</span></td>
+        <td><p>Attribute access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns an attribute identifier if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_open_" data-uid="HDF.PInvoke.H5A.open*"></a>
+  <h4 id="HDF_PInvoke_H5A_open_System_Int64_System_String_System_Int64_" data-uid="HDF.PInvoke.H5A.open(System.Int64,System.String,System.Int64)">open(System.Int64, String, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Opens an attribute for an object specified by object identifier
+and attribute name.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Open">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Open</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 open(System.Int64 obj_id, string attr_name, System.Int64 aapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">obj_id</span></td>
+        <td><p>Identifer for object to which attribute is
+attached</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">attr_name</span></td>
+        <td><p>Name of attribute to open</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">aapl_id</span></td>
+        <td><p>Attribute access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns an attribute identifier if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_open_System_Int64_System_String_System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_open_by_idx_" data-uid="HDF.PInvoke.H5A.open_by_idx*"></a>
+  <h4 id="HDF_PInvoke_H5A_open_by_idx_System_Int64_System_Byte___HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_System_Int64_System_Int64_" data-uid="HDF.PInvoke.H5A.open_by_idx(System.Int64,System.Byte[],HDF.PInvoke.H5.index_t,HDF.PInvoke.H5.iter_order_t,System.UInt64,System.Int64,System.Int64)">open_by_idx(System.Int64, Byte[], H5.index_t, H5.iter_order_t, System.UInt64, System.Int64, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Opens an attribute for an object specified by attribute index
+position.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-OpenByIdx">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-OpenByIdx</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 open_by_idx(System.Int64 loc_id, byte[] obj_name, H5.index_t idx_type, H5.iter_order_t order, System.UInt64 n, System.Int64 aapl_id = null, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location of object to which attribute is
+attached</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object to which attribute is
+attached, relative to location</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.index_t.html">H5.index_t</a></td>
+        <td><span class="parametername">idx_type</span></td>
+        <td><p>Type of index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.iter_order_t.html">H5.iter_order_t</a></td>
+        <td><span class="parametername">order</span></td>
+        <td><p>Index traversal order</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>Attribute’s position in index</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">aapl_id</span></td>
+        <td><p>Attribute access property list</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns an attribute identifier if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_open_by_idx_" data-uid="HDF.PInvoke.H5A.open_by_idx*"></a>
+  <h4 id="HDF_PInvoke_H5A_open_by_idx_System_Int64_System_String_HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_System_Int64_System_Int64_" data-uid="HDF.PInvoke.H5A.open_by_idx(System.Int64,System.String,HDF.PInvoke.H5.index_t,HDF.PInvoke.H5.iter_order_t,System.UInt64,System.Int64,System.Int64)">open_by_idx(System.Int64, String, H5.index_t, H5.iter_order_t, System.UInt64, System.Int64, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Opens an attribute for an object specified by attribute index
+position.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-OpenByIdx">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-OpenByIdx</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 open_by_idx(System.Int64 loc_id, string obj_name, H5.index_t idx_type, H5.iter_order_t order, System.UInt64 n, System.Int64 aapl_id = null, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location of object to which attribute is
+attached</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object to which attribute is
+attached, relative to location</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.index_t.html">H5.index_t</a></td>
+        <td><span class="parametername">idx_type</span></td>
+        <td><p>Type of index</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HDF.PInvoke.H5.iter_order_t.html">H5.iter_order_t</a></td>
+        <td><span class="parametername">order</span></td>
+        <td><p>Index traversal order</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>Attribute’s position in index</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">aapl_id</span></td>
+        <td><p>Attribute access property list</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns an attribute identifier if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_open_by_idx_System_Int64_System_String_HDF_PInvoke_H5_index_t_HDF_PInvoke_H5_iter_order_t_System_UInt64_System_Int64_System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_open_by_name_" data-uid="HDF.PInvoke.H5A.open_by_name*"></a>
+  <h4 id="HDF_PInvoke_H5A_open_by_name_System_Int64_System_Byte___System_Byte___System_Int64_System_Int64_" data-uid="HDF.PInvoke.H5A.open_by_name(System.Int64,System.Byte[],System.Byte[],System.Int64,System.Int64)">open_by_name(System.Int64, Byte[], Byte[], System.Int64, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Opens an attribute for an object by object name and attribute name.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-OpenByName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-OpenByName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 open_by_name(System.Int64 loc_id, byte[] obj_name, byte[] attr_name, System.Int64 aapl_id = null, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location from which to find object to which
+attribute is attached</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object to which attribute is
+attached, relative to <code data-dev-comment-type="paramref" class="paramref">loc_id</code></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">attr_name</span></td>
+        <td><p>Name of attribute to open</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">aapl_id</span></td>
+        <td><p>Attribute access property list</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns an attribute identifier if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_open_by_name_" data-uid="HDF.PInvoke.H5A.open_by_name*"></a>
+  <h4 id="HDF_PInvoke_H5A_open_by_name_System_Int64_System_String_System_String_System_Int64_System_Int64_" data-uid="HDF.PInvoke.H5A.open_by_name(System.Int64,System.String,System.String,System.Int64,System.Int64)">open_by_name(System.Int64, String, String, System.Int64, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Opens an attribute for an object by object name and attribute name.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-OpenByName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-OpenByName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int64 open_by_name(System.Int64 loc_id, string obj_name, string attr_name, System.Int64 aapl_id = null, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location from which to find object to which
+attribute is attached</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object to which attribute is
+attached, relative to <code data-dev-comment-type="paramref" class="paramref">loc_id</code></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">attr_name</span></td>
+        <td><p>Name of attribute to open</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">aapl_id</span></td>
+        <td><p>Attribute access property list</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Returns an attribute identifier if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_open_by_name_System_Int64_System_String_System_String_System_Int64_System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_read_" data-uid="HDF.PInvoke.H5A.read*"></a>
+  <h4 id="HDF_PInvoke_H5A_read_System_Int64_System_Int64_IntPtr_" data-uid="HDF.PInvoke.H5A.read(System.Int64,System.Int64,IntPtr)">read(System.Int64, System.Int64, IntPtr)</h4>
+  <div class="markdown level1 summary"><p>Reads an attribute.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Read">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Read</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 read(System.Int64 attr_id, System.Int64 type_id, IntPtr buf)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">attr_id</span></td>
+        <td><p>Identifier of an attribute to read.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">type_id</span></td>
+        <td><p>Identifier of the attribute datatype
+(in memory).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">buf</span></td>
+        <td><p>Buffer for data to be read.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_rename_" data-uid="HDF.PInvoke.H5A.rename*"></a>
+  <h4 id="HDF_PInvoke_H5A_rename_System_Int64_System_Byte___System_Byte___" data-uid="HDF.PInvoke.H5A.rename(System.Int64,System.Byte[],System.Byte[])">rename(System.Int64, Byte[], Byte[])</h4>
+  <div class="markdown level1 summary"><p>Renames an attribute.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Rename">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Rename</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 rename(System.Int64 loc_id, byte[] old_name, byte[] new_name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location of the attribute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">old_name</span></td>
+        <td><p>Name of the attribute to be changed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">new_name</span></td>
+        <td><p>New name for the attribute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.S</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_rename_" data-uid="HDF.PInvoke.H5A.rename*"></a>
+  <h4 id="HDF_PInvoke_H5A_rename_System_Int64_System_String_System_String_" data-uid="HDF.PInvoke.H5A.rename(System.Int64,System.String,System.String)">rename(System.Int64, String, String)</h4>
+  <div class="markdown level1 summary"><p>Renames an attribute.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Rename">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Rename</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 rename(System.Int64 loc_id, string old_name, string new_name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location of the attribute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">old_name</span></td>
+        <td><p>Name of the attribute to be changed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">new_name</span></td>
+        <td><p>New name for the attribute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_rename_System_Int64_System_String_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_rename_by_name_" data-uid="HDF.PInvoke.H5A.rename_by_name*"></a>
+  <h4 id="HDF_PInvoke_H5A_rename_by_name_System_Int64_System_Byte___System_Byte___System_Byte___System_Int64_" data-uid="HDF.PInvoke.H5A.rename_by_name(System.Int64,System.Byte[],System.Byte[],System.Byte[],System.Int64)">rename_by_name(System.Int64, Byte[], Byte[], Byte[], System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Renames an attribute.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-RenameByName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-RenameByName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 rename_by_name(System.Int64 loc_id, byte[] obj_name, byte[] old_attr_name, byte[] new_attr_name, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location or object identifier; may be dataset
+or group</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object, relative to location, whose
+attribute is to be renamed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">old_attr_name</span></td>
+        <td><p>Prior attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">new_attr_name</span></td>
+        <td><p>New attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list identifier</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="HDF_PInvoke_H5A_rename_by_name_" data-uid="HDF.PInvoke.H5A.rename_by_name*"></a>
+  <h4 id="HDF_PInvoke_H5A_rename_by_name_System_Int64_System_String_System_String_System_String_System_Int64_" data-uid="HDF.PInvoke.H5A.rename_by_name(System.Int64,System.String,System.String,System.String,System.Int64)">rename_by_name(System.Int64, String, String, String, System.Int64)</h4>
+  <div class="markdown level1 summary"><p>Renames an attribute.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-RenameByName">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-RenameByName</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 rename_by_name(System.Int64 loc_id, string obj_name, string old_attr_name, string new_attr_name, System.Int64 lapl_id = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">loc_id</span></td>
+        <td><p>Location or object identifier; may be dataset
+or group</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">obj_name</span></td>
+        <td><p>Name of object, relative to location, whose
+attribute is to be renamed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">old_attr_name</span></td>
+        <td><p>Prior attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">new_attr_name</span></td>
+        <td><p>New attribute name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lapl_id</span></td>
+        <td><p>Link access property list identifier</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a non-negative value if successful; otherwise
+returns a negative value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="HDF_PInvoke_H5A_rename_by_name_System_Int64_System_String_System_String_System_String_System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>ASCII strings ONLY!</p>
+</div>
+  
+  
+  <a id="HDF_PInvoke_H5A_write_" data-uid="HDF.PInvoke.H5A.write*"></a>
+  <h4 id="HDF_PInvoke_H5A_write_System_Int64_System_Int64_IntPtr_" data-uid="HDF.PInvoke.H5A.write(System.Int64,System.Int64,IntPtr)">write(System.Int64, System.Int64, IntPtr)</h4>
+  <div class="markdown level1 summary"><p>Writes data to an attribute.
+See <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Write">https://www.hdfgroup.org/HDF5/doc/RM/RM_H5A.html#Annot-Write</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.Int32 write(System.Int64 attr_id, System.Int64 mem_type_id, IntPtr buf)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">attr_id</span></td>
+        <td><p>Identifier of an attribute to write.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">mem_type_id</span></td>
+        <td><p>Identifier of the attribute datatype
+(in memory).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IntPtr</span></td>
+        <td><span class="parametername">buf</span></td>
+        <td><p>Data to be written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/surban/HDF.PInvoke/new/cb66ddeb2a9270731f7862d10e26a7fae46dbc3c/apiSpec/new?filename=HDF_PInvoke_H5A.md&amp;value=---%0Auid%3A%20HDF.PInvoke.H5A%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/surban/HDF.PInvoke/blob/cb66ddeb2a9270731f7862d10e26a7fae46dbc3c/HDF5/H5Apublic.cs/#L39" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

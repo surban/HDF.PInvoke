@@ -1,0 +1,1881 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/travis/build/surban/HDF.PInvoke/doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "RELEASE_NOTES.md",
+      "output": {
+        ".html": {
+          "relative_path": "RELEASE_NOTES.html",
+          "hash": "pnpIuV89cYWol12ZqPlPAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.Constants.html",
+          "hash": "Ugxm8MRoOfgy3Le6yHGblg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5.H5IterationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5.H5IterationResult.html",
+          "hash": "o+eDtPfrsAY52F004KdK5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5.ih_info_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5.ih_info_t.html",
+          "hash": "SQylRxFFP8oW/RbvI3EGwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5.index_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5.index_t.html",
+          "hash": "mQ84fexIQ5q14R1SocyXkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5.iter_order_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5.iter_order_t.html",
+          "hash": "vBTgOnSpABeJFzNhqFbdlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5.html",
+          "hash": "1kzYQMOYvpIdO/1vjQTe3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5A.info_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5A.info_t.html",
+          "hash": "cK6uBEXuqejRDasriyMU7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5A.operator_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5A.operator_t.html",
+          "hash": "FZtEGozY/3PSZ/svlQ6epw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5A.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5A.html",
+          "hash": "M7LnEnSs7XI2LQK8W1cXtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5AC.cache_config_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5AC.cache_config_t.html",
+          "hash": "sSvD4PMH4Gdsga5KDIKA3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5AC.cache_image_config_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5AC.cache_image_config_t.html",
+          "hash": "6ialUxkzPKA0hXzhM02ZTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5AC.metadata_write_strategy_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5AC.metadata_write_strategy_t.html",
+          "hash": "xdMYn7YGNrSo32I4D7C13A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5AC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5AC.html",
+          "hash": "6CAHiKxgk60c87PCnPPuIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5C.cache_decr_mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5C.cache_decr_mode.html",
+          "hash": "kMn/zxPDoixphRzohHsDcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5C.cache_flash_incr_mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5C.cache_flash_incr_mode.html",
+          "hash": "X9l2EJm8h1UTUvGd4pCnjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5C.cache_incr_mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5C.cache_incr_mode.html",
+          "hash": "p2+uEtkxCVMeaIBr5mRIIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5C.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5C.html",
+          "hash": "zVWJ89EKpAiWPf3ROlVafg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5D.alloc_time_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5D.alloc_time_t.html",
+          "hash": "dkvYFXzKBWgKZV9n/CoMcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5D.append_cb_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5D.append_cb_t.html",
+          "hash": "GxDdfgBUumFaRYzq4bouPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5D.chunk_index_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5D.chunk_index_t.html",
+          "hash": "uIFUuRBoic/PcsCaMK6Pzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5D.fill_time_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5D.fill_time_t.html",
+          "hash": "bPGOgNU9PLuPPyWYGCcr2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5D.fill_value_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5D.fill_value_t.html",
+          "hash": "aGJpbroNWri/EgthCZYomA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5D.gather_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5D.gather_func_t.html",
+          "hash": "CWMEo1ca4SKpneGgdDfYlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5D.layout_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5D.layout_t.html",
+          "hash": "k98WhwUe18KOTu9gGJhNKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5D.operator_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5D.operator_t.html",
+          "hash": "BErP83hb19i73Iko7Idt0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5D.scatter_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5D.scatter_func_t.html",
+          "hash": "RvlRe3Q3/h59zU2N2rxCEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5D.space_status_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5D.space_status_t.html",
+          "hash": "Lml+1BGOBhfNudIipjw6mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5D.vds_view_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5D.vds_view_t.html",
+          "hash": "87sTXF2hj67xJeYPM4HDAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5D.html",
+          "hash": "NSQXBMErMauMr6PWEJZdaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5DO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5DO.html",
+          "hash": "RdyKiwd+dRhE0PFUIHnewg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5E.auto_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5E.auto_t.html",
+          "hash": "DM1JnGhnjs28/eSFbF9Hzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5E.direction_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5E.direction_t.html",
+          "hash": "V1QHCoZu+yTQtH53+Tsx/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5E.error_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5E.error_t.html",
+          "hash": "vYb76gqbXxtaMp1ZdpuWuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5E.type_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5E.type_t.html",
+          "hash": "2wym4q4on+lYnvPSeUrXDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5E.walk_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5E.walk_t.html",
+          "hash": "zy67BBW1ggxJGoMfaMUVJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5E.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5E.html",
+          "hash": "UYbRoQVl+zl/0//LlMSLvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5F.close_degree_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5F.close_degree_t.html",
+          "hash": "qifDBi5/c58ANTGXsExzfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5F.file_space_type_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5F.file_space_type_t.html",
+          "hash": "wEaDaTInxgOWi8CY1BdnkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5F.flush_cb_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5F.flush_cb_t.html",
+          "hash": "58DLJ5TGXWOdn9Ug/nppgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5F.fspace_strategy_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5F.fspace_strategy_t.html",
+          "hash": "avFFPHMAvnbzy8z/oLSSWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5F.info_t.free_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5F.info_t.free_t.html",
+          "hash": "RFGvLnp2PVdFebcCYZKY6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5F.info_t.sohm_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5F.info_t.sohm_t.html",
+          "hash": "8/sddmPJSpHd8eWUNfOgLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5F.info_t.super_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5F.info_t.super_t.html",
+          "hash": "0VP8Gm+kj7X0z87BnrYovA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5F.info_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5F.info_t.html",
+          "hash": "Ad+/d+t9jeFqEUDmPwvjIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5F.libver_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5F.libver_t.html",
+          "hash": "dy4oUvJOe/7Kn8t52tHrrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5F.mem_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5F.mem_t.html",
+          "hash": "AWD1l+ppaxzyq1b8iIAZxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5F.retry_info_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5F.retry_info_t.html",
+          "hash": "uquvnm5WwBkz8ryghGyyow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5F.scope_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5F.scope_t.html",
+          "hash": "zS4ODfm2OZ0aw4wlrjzyfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5F.sect_info_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5F.sect_info_t.html",
+          "hash": "ow7GVvxaKM6vrrQhWwHi8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5F.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5F.html",
+          "hash": "bJU9REMq2BegcU9Ha2/7gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5FD.file_image_callbacks_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5FD.file_image_callbacks_t.html",
+          "hash": "h6RnGyG1x7uddO+4PVTspg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5FD.file_image_op_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5FD.file_image_op_t.html",
+          "hash": "3qINvz7OQX7bUR9siQ/JZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5FD.image_free_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5FD.image_free_t.html",
+          "hash": "nltVq8KoEScNFlvlUZXwpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5FD.image_malloc_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5FD.image_malloc_t.html",
+          "hash": "0lbDrpa9x/NNiQ4A5qCloQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5FD.image_memcpy_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5FD.image_memcpy_t.html",
+          "hash": "WWAfGhM3IifgvHFswp/lcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5FD.image_realloc_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5FD.image_realloc_t.html",
+          "hash": "MNs4yX9UFMvDsj7hbOrasw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5FD.udata_copy_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5FD.udata_copy_t.html",
+          "hash": "HwPu11zzMjyIhC0EHEGUpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5FD.udata_free_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5FD.udata_free_t.html",
+          "hash": "LduZiVsN9WMorviy8+TMDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5FD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5FD.html",
+          "hash": "TN7DDq9AvVf5EauquLumqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5G.info_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5G.info_t.html",
+          "hash": "MT8+7Li8yCnrr3JXfzNE6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5G.storage_type_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5G.storage_type_t.html",
+          "hash": "NF06LaFZv3gRrhi2bs4w5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5G.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5G.html",
+          "hash": "F2adsxGgqIFKd2UKrnyUpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5I.free_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5I.free_t.html",
+          "hash": "Z7K11hUpDuxrXzcKlRlZLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5I.search_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5I.search_func_t.html",
+          "hash": "kKSS7mB9h+vZtzrxOXlskQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5I.type_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5I.type_t.html",
+          "hash": "vFqsTaButKzjMKyiB7tzyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5I.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5I.html",
+          "hash": "TaLXSDySY2xah9Je1grLcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.class_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.class_t.html",
+          "hash": "OuH8RoVJgsh1rEYyR/ySdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.copy_func_ascii_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.copy_func_ascii_t.html",
+          "hash": "Lm7+jiSbwRALnOMxqrHaEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.copy_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.copy_func_t.html",
+          "hash": "BU8efrOeB8dzUcQgMy+dEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.create_func_ascii_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.create_func_ascii_t.html",
+          "hash": "0/fbowFuy+kkeGkqrC0XUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.create_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.create_func_t.html",
+          "hash": "XIUXwcYwo2LNHdQfHPDzcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.delete_func_ascii_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.delete_func_ascii_t.html",
+          "hash": "PihOlHril+o7d7k7AFSlxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.delete_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.delete_func_t.html",
+          "hash": "XqIUPiQvCUdUy/tR9+P5Jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.elink_traverse_ascii_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.elink_traverse_ascii_t.html",
+          "hash": "V8Dv64/HfRdJCKoRnxvh6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.elink_traverse_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.elink_traverse_t.html",
+          "hash": "mKRKdt/ch3Euw3pLJor0uQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.info_t.u_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.info_t.u_t.html",
+          "hash": "C0ZwVvVzZOIsyK3OcsKCXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.info_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.info_t.html",
+          "hash": "KpGob53srYPSm6OVrer9Hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.iterate_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.iterate_t.html",
+          "hash": "wfS2y1CWDO6CRcwFlfWHWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.move_func_ascii_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.move_func_ascii_t.html",
+          "hash": "syLNzOS7D4Zfff3iZxxXmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.move_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.move_func_t.html",
+          "hash": "rnIFx5Hh0mlEBQ0bor2UsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.query_func_ascii_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.query_func_ascii_t.html",
+          "hash": "m3G7TqQjFi+M7b8Fdi/AKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.query_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.query_func_t.html",
+          "hash": "OrIvV6EGAn2qFAZpNLicpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.traverse_func_ascii_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.traverse_func_ascii_t.html",
+          "hash": "rVuydQiQOJqTMv7Iv3LdRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.traverse_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.traverse_func_t.html",
+          "hash": "WZIYcIKtN6MjCr2j5GRHrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.type_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.type_t.html",
+          "hash": "JIcCRcJyvU5CjZtFYuEjdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5L.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5L.html",
+          "hash": "F07YTeQJFWPY7x+jLwj4mA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5MM.allocate_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5MM.allocate_t.html",
+          "hash": "ECcsj4mGSPoW/4t3PQthYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5MM.free_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5MM.free_t.html",
+          "hash": "p08wDMsdXJmaMmW5gzOzCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5MM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5MM.html",
+          "hash": "k9aToR1qPHaLifgzjWmkQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5O.hdr_info_t.mesg_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5O.hdr_info_t.mesg_t.html",
+          "hash": "jW1clPUCoKowGFrJxvRtRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5O.hdr_info_t.space_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5O.hdr_info_t.space_t.html",
+          "hash": "wNFcUPhxwmQKyDQbND305g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5O.hdr_info_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5O.hdr_info_t.html",
+          "hash": "gI1OehTqcSPHSBrnBvIgMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5O.info_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5O.info_t.html",
+          "hash": "kE/R1L74hcVr+Oz3JCcG4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5O.iterate_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5O.iterate_t.html",
+          "hash": "vkEPvbbPr4nt2k5+OFxuVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5O.mcdt_search_cb_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5O.mcdt_search_cb_t.html",
+          "hash": "h46xq8z8KWLjAh9u81w1lA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5O.mcdt_search_ret_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5O.mcdt_search_ret_t.html",
+          "hash": "mv6hg2A/b9CK0aR/H8ko9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5O.meta_size_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5O.meta_size_t.html",
+          "hash": "qOTez0FPbsweG5djFy6yMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5O.type_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5O.type_t.html",
+          "hash": "iY9odDXl54EgVl3n8BzTAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5O.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5O.html",
+          "hash": "QTAmVp0Tks2/CFfXXrMu4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5P.cls_close_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5P.cls_close_func_t.html",
+          "hash": "OqAeOeiK0W5qjpywvCb1RQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5P.cls_copy_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5P.cls_copy_func_t.html",
+          "hash": "zKUfKY7ge6EUtrB8tTprGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5P.cls_create_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5P.cls_create_func_t.html",
+          "hash": "SKzyAbJ8kNQbCWUsrMH9iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5P.iterate_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5P.iterate_t.html",
+          "hash": "cd/WUuGElX1lV7EHB74kfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5P.prp_cb1_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5P.prp_cb1_t.html",
+          "hash": "QVX3ZIVJfLhnLzXf2hCqmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5P.prp_cb2_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5P.prp_cb2_t.html",
+          "hash": "6XODPRMhf5sphBMvHXXbJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5P.prp_compare_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5P.prp_compare_func_t.html",
+          "hash": "TaKwnDDJIb7kf1zhY57Qpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5P.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5P.html",
+          "hash": "qnRGr2ouEn/8U3b2rGLlSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5PL.type_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5PL.type_t.html",
+          "hash": "IqyjhXu2qlOqmK7fHquZEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5PL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5PL.html",
+          "hash": "lIqPWg/77cRYyDibCZXGGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5R.type_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5R.type_t.html",
+          "hash": "ybFIFM+OSXgevrZpRjPtlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5R.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5R.html",
+          "hash": "pXbuD8ChWTh3ljFhsEd7Hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5S.class_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5S.class_t.html",
+          "hash": "JMCN25RvF5oi4qNM+vITQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5S.sel_type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5S.sel_type.html",
+          "hash": "43lVfsqBkvs0bJL6zNuyYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5S.seloper_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5S.seloper_t.html",
+          "hash": "PwYD67yIvNHECnjiJbKrcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5S.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5S.html",
+          "hash": "A1qz4aB72AnZTBUZ7QM/6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.bkg_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.bkg_t.html",
+          "hash": "uqPf8hmhUsapOET0oaZq2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.cdata_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.cdata_t.html",
+          "hash": "hZObaaknhxrHrgcR3/V+zQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.class_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.class_t.html",
+          "hash": "0r0to8bCsHI4Wk4PAvQshQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.cmd_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.cmd_t.html",
+          "hash": "lGjVvZDlAxy2o5rA6r+61Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.conv_except_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.conv_except_func_t.html",
+          "hash": "TzTUUy4cyTqdON5sI/aYIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.conv_except_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.conv_except_t.html",
+          "hash": "0uAaX7LHRnb/pQ3wYZfVzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.conv_ret_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.conv_ret_t.html",
+          "hash": "1KhwFOUH7PsL55DAPO5SdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.conv_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.conv_t.html",
+          "hash": "dbhXovvcmzM8taVw85MEvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.cset_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.cset_t.html",
+          "hash": "MvoEKLp7Nm/d/Z9g6lcNgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.direction_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.direction_t.html",
+          "hash": "ingpBP+xzvyMWZ9Z2FpJXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.hvl_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.hvl_t.html",
+          "hash": "iBzWoLB/PDR3XbH263sawQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.norm_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.norm_t.html",
+          "hash": "RmCqv65qNHb2kolE1pSXnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.order_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.order_t.html",
+          "hash": "MqrPXkX5cWbSf85+hFJmTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.pad_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.pad_t.html",
+          "hash": "kczGEpE2xjsoMTFh/O1rwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.pers_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.pers_t.html",
+          "hash": "nKR4qH/nC+h25q4s6WEzJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.sign_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.sign_t.html",
+          "hash": "dRDoxZHK9XZPBNhatIvxYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.str_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.str_t.html",
+          "hash": "GyWOJIxc377N37/pZsFJlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5T.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5T.html",
+          "hash": "L2K4M3b4f0Eswpq0ZwmkCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5Z.EDC_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5Z.EDC_t.html",
+          "hash": "7mpL/Lygk5hDKNKcrM4V8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5Z.SO_scale_type_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5Z.SO_scale_type_t.html",
+          "hash": "TZ137qwYb5uCUlA8bg7ejw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5Z.can_apply_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5Z.can_apply_func_t.html",
+          "hash": "aRG0uf+eIFWoFMAPI8NBjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5Z.cb_return_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5Z.cb_return_t.html",
+          "hash": "TRtkTylJ5s5XeVAL/oKoTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5Z.class_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5Z.class_t.html",
+          "hash": "ejpEJFgbXEb4wY7VdEjaIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5Z.filter_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5Z.filter_func_t.html",
+          "hash": "MaXhR1lQXd6lnL7yjt+5Xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5Z.filter_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5Z.filter_t.html",
+          "hash": "JOSqmmSFPzAlie+29F4Y2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5Z.func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5Z.func_t.html",
+          "hash": "oZdSEdU9srBvgCnE/pLtDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5Z.set_local_func_t.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5Z.set_local_func_t.html",
+          "hash": "Xxn5kCZM8/lTHsRU8eZLjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.H5Z.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.H5Z.html",
+          "hash": "YP+bpoL42ktUMWxDeqe/tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.NativeDependencies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.NativeDependencies.html",
+          "hash": "f5IlKMNZZ0TeVHaozKBzxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HDF.PInvoke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HDF.PInvoke.html",
+          "hash": "22ibCB9vUpTzJVlvglN+dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "D5HN0WdUopYpka87+SQLuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "VG50b+5QBym11U5Yeo84sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/hdf.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/hdf.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/hdf.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/hdf.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "WTEcOpM35LgY0nWDB1pLbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Xy6q9gRVjzgKDihyJC1pLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
