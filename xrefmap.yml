@@ -1484,15 +1484,72 @@ references:
   commentId: Overload:HDF.PInvoke.H5D.get_chunk_index_type
   fullName: HDF.PInvoke.H5D.get_chunk_index_type
   nameWithType: H5D.get_chunk_index_type
-- uid: HDF.PInvoke.H5D.get_chunk_storage_size(System.Int64,System.UInt64@,System.UInt64@)
-  name: get_chunk_storage_size(System.Int64, ref System.UInt64, ref System.UInt64)
+- uid: HDF.PInvoke.H5D.get_chunk_info(System.Int64,System.Int64,System.UInt64,System.UInt64*,System.UInt32@,System.UInt64@,System.UInt64@)
+  name: get_chunk_info(System.Int64, System.Int64, System.UInt64, System.UInt64*, ref System.UInt32, ref System.UInt64, ref System.UInt64)
+  href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_get_chunk_info_System_Int64_System_Int64_System_UInt64_System_UInt64__System_UInt32__System_UInt64__System_UInt64__
+  commentId: M:HDF.PInvoke.H5D.get_chunk_info(System.Int64,System.Int64,System.UInt64,System.UInt64*,System.UInt32@,System.UInt64@,System.UInt64@)
+  name.vb: get_chunk_info(System.Int64, System.Int64, System.UInt64, System.UInt64*, ByRef System.UInt32, ByRef System.UInt64, ByRef System.UInt64)
+  fullName: HDF.PInvoke.H5D.get_chunk_info(System.Int64, System.Int64, System.UInt64, System.UInt64*, ref System.UInt32, ref System.UInt64, ref System.UInt64)
+  fullName.vb: HDF.PInvoke.H5D.get_chunk_info(System.Int64, System.Int64, System.UInt64, System.UInt64*, ByRef System.UInt32, ByRef System.UInt64, ByRef System.UInt64)
+  nameWithType: H5D.get_chunk_info(System.Int64, System.Int64, System.UInt64, System.UInt64*, ref System.UInt32, ref System.UInt64, ref System.UInt64)
+  nameWithType.vb: H5D.get_chunk_info(System.Int64, System.Int64, System.UInt64, System.UInt64*, ByRef System.UInt32, ByRef System.UInt64, ByRef System.UInt64)
+- uid: HDF.PInvoke.H5D.get_chunk_info(System.Int64,System.Int64,System.UInt64,System.UInt64[],System.UInt32@,System.UInt64@,System.UInt64@)
+  name: get_chunk_info(System.Int64, System.Int64, System.UInt64, System.UInt64[], ref System.UInt32, ref System.UInt64, ref System.UInt64)
+  href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_get_chunk_info_System_Int64_System_Int64_System_UInt64_System_UInt64___System_UInt32__System_UInt64__System_UInt64__
+  commentId: M:HDF.PInvoke.H5D.get_chunk_info(System.Int64,System.Int64,System.UInt64,System.UInt64[],System.UInt32@,System.UInt64@,System.UInt64@)
+  name.vb: get_chunk_info(System.Int64, System.Int64, System.UInt64, System.UInt64(), ByRef System.UInt32, ByRef System.UInt64, ByRef System.UInt64)
+  fullName: HDF.PInvoke.H5D.get_chunk_info(System.Int64, System.Int64, System.UInt64, System.UInt64[], ref System.UInt32, ref System.UInt64, ref System.UInt64)
+  fullName.vb: HDF.PInvoke.H5D.get_chunk_info(System.Int64, System.Int64, System.UInt64, System.UInt64(), ByRef System.UInt32, ByRef System.UInt64, ByRef System.UInt64)
+  nameWithType: H5D.get_chunk_info(System.Int64, System.Int64, System.UInt64, System.UInt64[], ref System.UInt32, ref System.UInt64, ref System.UInt64)
+  nameWithType.vb: H5D.get_chunk_info(System.Int64, System.Int64, System.UInt64, System.UInt64(), ByRef System.UInt32, ByRef System.UInt64, ByRef System.UInt64)
+- uid: HDF.PInvoke.H5D.get_chunk_info*
+  name: get_chunk_info
+  href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_get_chunk_info_
+  commentId: Overload:HDF.PInvoke.H5D.get_chunk_info
+  fullName: HDF.PInvoke.H5D.get_chunk_info
+  nameWithType: H5D.get_chunk_info
+- uid: HDF.PInvoke.H5D.get_chunk_info_by_coord(System.Int64,System.UInt64*,System.UInt32@,System.UInt64@,System.UInt64@)
+  name: get_chunk_info_by_coord(System.Int64, System.UInt64*, ref System.UInt32, ref System.UInt64, ref System.UInt64)
+  href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_get_chunk_info_by_coord_System_Int64_System_UInt64__System_UInt32__System_UInt64__System_UInt64__
+  commentId: M:HDF.PInvoke.H5D.get_chunk_info_by_coord(System.Int64,System.UInt64*,System.UInt32@,System.UInt64@,System.UInt64@)
+  name.vb: get_chunk_info_by_coord(System.Int64, System.UInt64*, ByRef System.UInt32, ByRef System.UInt64, ByRef System.UInt64)
+  fullName: HDF.PInvoke.H5D.get_chunk_info_by_coord(System.Int64, System.UInt64*, ref System.UInt32, ref System.UInt64, ref System.UInt64)
+  fullName.vb: HDF.PInvoke.H5D.get_chunk_info_by_coord(System.Int64, System.UInt64*, ByRef System.UInt32, ByRef System.UInt64, ByRef System.UInt64)
+  nameWithType: H5D.get_chunk_info_by_coord(System.Int64, System.UInt64*, ref System.UInt32, ref System.UInt64, ref System.UInt64)
+  nameWithType.vb: H5D.get_chunk_info_by_coord(System.Int64, System.UInt64*, ByRef System.UInt32, ByRef System.UInt64, ByRef System.UInt64)
+- uid: HDF.PInvoke.H5D.get_chunk_info_by_coord(System.Int64,System.UInt64[],System.UInt32@,System.UInt64@,System.UInt64@)
+  name: get_chunk_info_by_coord(System.Int64, System.UInt64[], ref System.UInt32, ref System.UInt64, ref System.UInt64)
+  href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_get_chunk_info_by_coord_System_Int64_System_UInt64___System_UInt32__System_UInt64__System_UInt64__
+  commentId: M:HDF.PInvoke.H5D.get_chunk_info_by_coord(System.Int64,System.UInt64[],System.UInt32@,System.UInt64@,System.UInt64@)
+  name.vb: get_chunk_info_by_coord(System.Int64, System.UInt64(), ByRef System.UInt32, ByRef System.UInt64, ByRef System.UInt64)
+  fullName: HDF.PInvoke.H5D.get_chunk_info_by_coord(System.Int64, System.UInt64[], ref System.UInt32, ref System.UInt64, ref System.UInt64)
+  fullName.vb: HDF.PInvoke.H5D.get_chunk_info_by_coord(System.Int64, System.UInt64(), ByRef System.UInt32, ByRef System.UInt64, ByRef System.UInt64)
+  nameWithType: H5D.get_chunk_info_by_coord(System.Int64, System.UInt64[], ref System.UInt32, ref System.UInt64, ref System.UInt64)
+  nameWithType.vb: H5D.get_chunk_info_by_coord(System.Int64, System.UInt64(), ByRef System.UInt32, ByRef System.UInt64, ByRef System.UInt64)
+- uid: HDF.PInvoke.H5D.get_chunk_info_by_coord*
+  name: get_chunk_info_by_coord
+  href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_get_chunk_info_by_coord_
+  commentId: Overload:HDF.PInvoke.H5D.get_chunk_info_by_coord
+  fullName: HDF.PInvoke.H5D.get_chunk_info_by_coord
+  nameWithType: H5D.get_chunk_info_by_coord
+- uid: HDF.PInvoke.H5D.get_chunk_storage_size(System.Int64,System.UInt64*,System.UInt64@)
+  name: get_chunk_storage_size(System.Int64, System.UInt64*, ref System.UInt64)
   href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_get_chunk_storage_size_System_Int64_System_UInt64__System_UInt64__
-  commentId: M:HDF.PInvoke.H5D.get_chunk_storage_size(System.Int64,System.UInt64@,System.UInt64@)
-  name.vb: get_chunk_storage_size(System.Int64, ByRef System.UInt64, ByRef System.UInt64)
-  fullName: HDF.PInvoke.H5D.get_chunk_storage_size(System.Int64, ref System.UInt64, ref System.UInt64)
-  fullName.vb: HDF.PInvoke.H5D.get_chunk_storage_size(System.Int64, ByRef System.UInt64, ByRef System.UInt64)
-  nameWithType: H5D.get_chunk_storage_size(System.Int64, ref System.UInt64, ref System.UInt64)
-  nameWithType.vb: H5D.get_chunk_storage_size(System.Int64, ByRef System.UInt64, ByRef System.UInt64)
+  commentId: M:HDF.PInvoke.H5D.get_chunk_storage_size(System.Int64,System.UInt64*,System.UInt64@)
+  name.vb: get_chunk_storage_size(System.Int64, System.UInt64*, ByRef System.UInt64)
+  fullName: HDF.PInvoke.H5D.get_chunk_storage_size(System.Int64, System.UInt64*, ref System.UInt64)
+  fullName.vb: HDF.PInvoke.H5D.get_chunk_storage_size(System.Int64, System.UInt64*, ByRef System.UInt64)
+  nameWithType: H5D.get_chunk_storage_size(System.Int64, System.UInt64*, ref System.UInt64)
+  nameWithType.vb: H5D.get_chunk_storage_size(System.Int64, System.UInt64*, ByRef System.UInt64)
+- uid: HDF.PInvoke.H5D.get_chunk_storage_size(System.Int64,System.UInt64[],System.UInt64@)
+  name: get_chunk_storage_size(System.Int64, System.UInt64[], ref System.UInt64)
+  href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_get_chunk_storage_size_System_Int64_System_UInt64___System_UInt64__
+  commentId: M:HDF.PInvoke.H5D.get_chunk_storage_size(System.Int64,System.UInt64[],System.UInt64@)
+  name.vb: get_chunk_storage_size(System.Int64, System.UInt64(), ByRef System.UInt64)
+  fullName: HDF.PInvoke.H5D.get_chunk_storage_size(System.Int64, System.UInt64[], ref System.UInt64)
+  fullName.vb: HDF.PInvoke.H5D.get_chunk_storage_size(System.Int64, System.UInt64(), ByRef System.UInt64)
+  nameWithType: H5D.get_chunk_storage_size(System.Int64, System.UInt64[], ref System.UInt64)
+  nameWithType.vb: H5D.get_chunk_storage_size(System.Int64, System.UInt64(), ByRef System.UInt64)
 - uid: HDF.PInvoke.H5D.get_chunk_storage_size*
   name: get_chunk_storage_size
   href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_get_chunk_storage_size_
@@ -1511,6 +1568,21 @@ references:
   commentId: Overload:HDF.PInvoke.H5D.get_create_plist
   fullName: HDF.PInvoke.H5D.get_create_plist
   nameWithType: H5D.get_create_plist
+- uid: HDF.PInvoke.H5D.get_num_chunks(System.Int64,System.Int64,System.UInt64@)
+  name: get_num_chunks(System.Int64, System.Int64, ref System.UInt64)
+  href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_get_num_chunks_System_Int64_System_Int64_System_UInt64__
+  commentId: M:HDF.PInvoke.H5D.get_num_chunks(System.Int64,System.Int64,System.UInt64@)
+  name.vb: get_num_chunks(System.Int64, System.Int64, ByRef System.UInt64)
+  fullName: HDF.PInvoke.H5D.get_num_chunks(System.Int64, System.Int64, ref System.UInt64)
+  fullName.vb: HDF.PInvoke.H5D.get_num_chunks(System.Int64, System.Int64, ByRef System.UInt64)
+  nameWithType: H5D.get_num_chunks(System.Int64, System.Int64, ref System.UInt64)
+  nameWithType.vb: H5D.get_num_chunks(System.Int64, System.Int64, ByRef System.UInt64)
+- uid: HDF.PInvoke.H5D.get_num_chunks*
+  name: get_num_chunks
+  href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_get_num_chunks_
+  commentId: Overload:HDF.PInvoke.H5D.get_num_chunks
+  fullName: HDF.PInvoke.H5D.get_num_chunks
+  nameWithType: H5D.get_num_chunks
 - uid: HDF.PInvoke.H5D.get_offset(System.Int64)
   name: get_offset(System.Int64)
   href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_get_offset_System_Int64_
@@ -1667,6 +1739,21 @@ references:
   commentId: Overload:HDF.PInvoke.H5D.read
   fullName: HDF.PInvoke.H5D.read
   nameWithType: H5D.read
+- uid: HDF.PInvoke.H5D.read_chunk(System.Int64,System.Int64,System.UInt64@,System.UInt32@,IntPtr)
+  name: read_chunk(System.Int64, System.Int64, ref System.UInt64, ref System.UInt32, IntPtr)
+  href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_read_chunk_System_Int64_System_Int64_System_UInt64__System_UInt32__IntPtr_
+  commentId: M:HDF.PInvoke.H5D.read_chunk(System.Int64,System.Int64,System.UInt64@,System.UInt32@,IntPtr)
+  name.vb: read_chunk(System.Int64, System.Int64, ByRef System.UInt64, ByRef System.UInt32, IntPtr)
+  fullName: HDF.PInvoke.H5D.read_chunk(System.Int64, System.Int64, ref System.UInt64, ref System.UInt32, IntPtr)
+  fullName.vb: HDF.PInvoke.H5D.read_chunk(System.Int64, System.Int64, ByRef System.UInt64, ByRef System.UInt32, IntPtr)
+  nameWithType: H5D.read_chunk(System.Int64, System.Int64, ref System.UInt64, ref System.UInt32, IntPtr)
+  nameWithType.vb: H5D.read_chunk(System.Int64, System.Int64, ByRef System.UInt64, ByRef System.UInt32, IntPtr)
+- uid: HDF.PInvoke.H5D.read_chunk*
+  name: read_chunk
+  href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_read_chunk_
+  commentId: Overload:HDF.PInvoke.H5D.read_chunk
+  fullName: HDF.PInvoke.H5D.read_chunk
+  nameWithType: H5D.read_chunk
 - uid: HDF.PInvoke.H5D.refresh(System.Int64)
   name: refresh(System.Int64)
   href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_refresh_System_Int64_
@@ -1811,6 +1898,21 @@ references:
   commentId: Overload:HDF.PInvoke.H5D.write
   fullName: HDF.PInvoke.H5D.write
   nameWithType: H5D.write
+- uid: HDF.PInvoke.H5D.write_chunk(System.Int64,System.Int64,System.UInt32,System.UInt64@,System.IntPtr,IntPtr)
+  name: write_chunk(System.Int64, System.Int64, System.UInt32, ref System.UInt64, System.IntPtr, IntPtr)
+  href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_write_chunk_System_Int64_System_Int64_System_UInt32_System_UInt64__System_IntPtr_IntPtr_
+  commentId: M:HDF.PInvoke.H5D.write_chunk(System.Int64,System.Int64,System.UInt32,System.UInt64@,System.IntPtr,IntPtr)
+  name.vb: write_chunk(System.Int64, System.Int64, System.UInt32, ByRef System.UInt64, System.IntPtr, IntPtr)
+  fullName: HDF.PInvoke.H5D.write_chunk(System.Int64, System.Int64, System.UInt32, ref System.UInt64, System.IntPtr, IntPtr)
+  fullName.vb: HDF.PInvoke.H5D.write_chunk(System.Int64, System.Int64, System.UInt32, ByRef System.UInt64, System.IntPtr, IntPtr)
+  nameWithType: H5D.write_chunk(System.Int64, System.Int64, System.UInt32, ref System.UInt64, System.IntPtr, IntPtr)
+  nameWithType.vb: H5D.write_chunk(System.Int64, System.Int64, System.UInt32, ByRef System.UInt64, System.IntPtr, IntPtr)
+- uid: HDF.PInvoke.H5D.write_chunk*
+  name: write_chunk
+  href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_write_chunk_
+  commentId: Overload:HDF.PInvoke.H5D.write_chunk
+  fullName: HDF.PInvoke.H5D.write_chunk
+  nameWithType: H5D.write_chunk
 - uid: HDF.PInvoke.H5D.XFER_DIRECT_CHUNK_WRITE_DATASIZE_NAME
   name: XFER_DIRECT_CHUNK_WRITE_DATASIZE_NAME
   href: api/HDF.PInvoke.H5D.html#HDF_PInvoke_H5D_XFER_DIRECT_CHUNK_WRITE_DATASIZE_NAME
@@ -4527,6 +4629,21 @@ references:
   commentId: Overload:HDF.PInvoke.H5F.get_create_plist
   fullName: HDF.PInvoke.H5F.get_create_plist
   nameWithType: H5F.get_create_plist
+- uid: HDF.PInvoke.H5F.get_dset_no_attrs_hint(System.Int64,System.UInt32@)
+  name: get_dset_no_attrs_hint(System.Int64, ref System.UInt32)
+  href: api/HDF.PInvoke.H5F.html#HDF_PInvoke_H5F_get_dset_no_attrs_hint_System_Int64_System_UInt32__
+  commentId: M:HDF.PInvoke.H5F.get_dset_no_attrs_hint(System.Int64,System.UInt32@)
+  name.vb: get_dset_no_attrs_hint(System.Int64, ByRef System.UInt32)
+  fullName: HDF.PInvoke.H5F.get_dset_no_attrs_hint(System.Int64, ref System.UInt32)
+  fullName.vb: HDF.PInvoke.H5F.get_dset_no_attrs_hint(System.Int64, ByRef System.UInt32)
+  nameWithType: H5F.get_dset_no_attrs_hint(System.Int64, ref System.UInt32)
+  nameWithType.vb: H5F.get_dset_no_attrs_hint(System.Int64, ByRef System.UInt32)
+- uid: HDF.PInvoke.H5F.get_dset_no_attrs_hint*
+  name: get_dset_no_attrs_hint
+  href: api/HDF.PInvoke.H5F.html#HDF_PInvoke_H5F_get_dset_no_attrs_hint_
+  commentId: Overload:HDF.PInvoke.H5F.get_dset_no_attrs_hint
+  fullName: HDF.PInvoke.H5F.get_dset_no_attrs_hint
+  nameWithType: H5F.get_dset_no_attrs_hint
 - uid: HDF.PInvoke.H5F.get_file_image(System.Int64,IntPtr,IntPtr)
   name: get_file_image(System.Int64, IntPtr, IntPtr)
   href: api/HDF.PInvoke.H5F.html#HDF_PInvoke_H5F_get_file_image_System_Int64_IntPtr_IntPtr_
@@ -5271,6 +5388,18 @@ references:
   commentId: F:HDF.PInvoke.H5F.sect_info_t.size
   fullName: HDF.PInvoke.H5F.sect_info_t.size
   nameWithType: H5F.sect_info_t.size
+- uid: HDF.PInvoke.H5F.set_dset_no_attrs_hint(System.Int64,System.UInt32)
+  name: set_dset_no_attrs_hint(System.Int64, System.UInt32)
+  href: api/HDF.PInvoke.H5F.html#HDF_PInvoke_H5F_set_dset_no_attrs_hint_System_Int64_System_UInt32_
+  commentId: M:HDF.PInvoke.H5F.set_dset_no_attrs_hint(System.Int64,System.UInt32)
+  fullName: HDF.PInvoke.H5F.set_dset_no_attrs_hint(System.Int64, System.UInt32)
+  nameWithType: H5F.set_dset_no_attrs_hint(System.Int64, System.UInt32)
+- uid: HDF.PInvoke.H5F.set_dset_no_attrs_hint*
+  name: set_dset_no_attrs_hint
+  href: api/HDF.PInvoke.H5F.html#HDF_PInvoke_H5F_set_dset_no_attrs_hint_
+  commentId: Overload:HDF.PInvoke.H5F.set_dset_no_attrs_hint
+  fullName: HDF.PInvoke.H5F.set_dset_no_attrs_hint
+  nameWithType: H5F.set_dset_no_attrs_hint
 - uid: HDF.PInvoke.H5F.set_mdc_config(System.Int64,HDF.PInvoke.H5AC.cache_config_t@)
   name: set_mdc_config(System.Int64, ref H5AC.cache_config_t)
   href: api/HDF.PInvoke.H5F.html#HDF_PInvoke_H5F_set_mdc_config_System_Int64_HDF_PInvoke_H5AC_cache_config_t__
@@ -8157,6 +8286,21 @@ references:
   commentId: Overload:HDF.PInvoke.H5P.get_driver_info
   fullName: HDF.PInvoke.H5P.get_driver_info
   nameWithType: H5P.get_driver_info
+- uid: HDF.PInvoke.H5P.get_dset_no_attrs_hint(System.Int64,System.UInt32@)
+  name: get_dset_no_attrs_hint(System.Int64, ref System.UInt32)
+  href: api/HDF.PInvoke.H5P.html#HDF_PInvoke_H5P_get_dset_no_attrs_hint_System_Int64_System_UInt32__
+  commentId: M:HDF.PInvoke.H5P.get_dset_no_attrs_hint(System.Int64,System.UInt32@)
+  name.vb: get_dset_no_attrs_hint(System.Int64, ByRef System.UInt32)
+  fullName: HDF.PInvoke.H5P.get_dset_no_attrs_hint(System.Int64, ref System.UInt32)
+  fullName.vb: HDF.PInvoke.H5P.get_dset_no_attrs_hint(System.Int64, ByRef System.UInt32)
+  nameWithType: H5P.get_dset_no_attrs_hint(System.Int64, ref System.UInt32)
+  nameWithType.vb: H5P.get_dset_no_attrs_hint(System.Int64, ByRef System.UInt32)
+- uid: HDF.PInvoke.H5P.get_dset_no_attrs_hint*
+  name: get_dset_no_attrs_hint
+  href: api/HDF.PInvoke.H5P.html#HDF_PInvoke_H5P_get_dset_no_attrs_hint_
+  commentId: Overload:HDF.PInvoke.H5P.get_dset_no_attrs_hint
+  fullName: HDF.PInvoke.H5P.get_dset_no_attrs_hint
+  nameWithType: H5P.get_dset_no_attrs_hint
 - uid: HDF.PInvoke.H5P.get_edc_check(System.Int64)
   name: get_edc_check(System.Int64)
   href: api/HDF.PInvoke.H5P.html#HDF_PInvoke_H5P_get_edc_check_System_Int64_
@@ -9744,6 +9888,18 @@ references:
   commentId: Overload:HDF.PInvoke.H5P.set_driver
   fullName: HDF.PInvoke.H5P.set_driver
   nameWithType: H5P.set_driver
+- uid: HDF.PInvoke.H5P.set_dset_no_attrs_hint(System.Int64,System.UInt32)
+  name: set_dset_no_attrs_hint(System.Int64, System.UInt32)
+  href: api/HDF.PInvoke.H5P.html#HDF_PInvoke_H5P_set_dset_no_attrs_hint_System_Int64_System_UInt32_
+  commentId: M:HDF.PInvoke.H5P.set_dset_no_attrs_hint(System.Int64,System.UInt32)
+  fullName: HDF.PInvoke.H5P.set_dset_no_attrs_hint(System.Int64, System.UInt32)
+  nameWithType: H5P.set_dset_no_attrs_hint(System.Int64, System.UInt32)
+- uid: HDF.PInvoke.H5P.set_dset_no_attrs_hint*
+  name: set_dset_no_attrs_hint
+  href: api/HDF.PInvoke.H5P.html#HDF_PInvoke_H5P_set_dset_no_attrs_hint_
+  commentId: Overload:HDF.PInvoke.H5P.set_dset_no_attrs_hint
+  fullName: HDF.PInvoke.H5P.set_dset_no_attrs_hint
+  nameWithType: H5P.set_dset_no_attrs_hint
 - uid: HDF.PInvoke.H5P.set_edc_check(System.Int64,HDF.PInvoke.H5Z.EDC_t)
   name: set_edc_check(System.Int64, H5Z.EDC_t)
   href: api/HDF.PInvoke.H5P.html#HDF_PInvoke_H5P_set_edc_check_System_Int64_HDF_PInvoke_H5Z_EDC_t_
