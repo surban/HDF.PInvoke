@@ -79,45 +79,33 @@
 It has been tested on Linux, MacOS and Microsoft Windows.</p>
 <p>The source code is available at <a href="https://github.com/surban/HDF.PInvoke">https://github.com/surban/HDF.PInvoke</a>.
 Please use this GitHub repository to report issues and send pull requests.</p>
-<h2 id="multithreaded-operation">Multithreaded operation</h2>
-<p>All HDF5 operations are thread-safe as described in the <a href="https://support.hdfgroup.org/HDF5/faq/threadsafe.html">official document</a>,</p>
 <h2 id="what-it-is-not">What it is (not)</h2>
 <p>HDF.PInvoke is a collection of <a href="https://en.wikipedia.org/wiki/Platform_Invocation_Services">PInvoke</a>
 signatures for the <a href="https://www.hdfgroup.org/HDF5/doc/RM/RM_H5Front.html">HDF5 C-API</a>.
-It's practically <em>code-free</em>, which means we can blame all the bugs on Microsoft or <a href="https://www.hdfgroup.org/">The HDF Group</a> 😄</p>
+It's practically <em>code-free</em>, which means we can blame all the bugs on Microsoft or <a href="https://www.hdfgroup.org/">The HDF Group</a>.</p>
 <p>It is <strong>not</strong> a high-level .NET interface for HDF5. &quot;It's the <a href="https://en.wikipedia.org/wiki/Greatest_common_divisor">GCD</a>
-of .NET bindings for HDF5, not the <a href="https://en.wikipedia.org/wiki/Least_common_multiple">LCM</a>.&quot; :bowtie:</p>
-<h2 id="quick-install">Quick Install</h2>
+of .NET bindings for HDF5, not the <a href="https://en.wikipedia.org/wiki/Least_common_multiple">LCM</a>.&quot;</p>
+<h2 id="supported-platforms">Supported platforms</h2>
+<p>This package supports and has been tested on 64-bit versions of Linux, MacOS and Microsoft Windows.</p>
+<h2 id="multithreaded-operation">Multithreaded operation</h2>
+<p>All HDF5 operations in this library are thread-safe as described in the <a href="https://support.hdfgroup.org/HDF5/faq/threadsafe.html">official document</a>, i.e. HDF5 operations from multiple threads are automatically serialized.</p>
+<h2 id="api-documentation">API documentation</h2>
+<p>A <a href="api/HDF.PInvoke.html">full API reference</a> of the .NET interface is provided.
+See the official <a href="https://portal.hdfgroup.org/display/HDF5/HDF5">HDF5 support page</a> for a usage guide.</p>
+<h2 id="installation">Installation</h2>
 <p>To install the latest HDF.PInvoke 1.10 for .NET core, run the following command inside your project directory.</p>
 <pre><code>dotnet add package HDF.PInvoke.NETStandard
 </code></pre>
 <p>You can also grab the NuGet package from <a href="https://www.nuget.org/packages/HDF.PInvoke.NETStandard">https://www.nuget.org/packages/HDF.PInvoke.NETStandard</a>.</p>
-<h2 id="prerequisites">Prerequisites</h2>
-<p>The <code>HDF.PInvoke.dll</code> managed assembly depends on the following native libraries (32-bit and 64-bit):</p>
-<ul>
-<li>HDF5 core API, <code>hdf5.dll</code>, <code>libhdf5.so</code> or <code>libhdf5.dylib</code></li>
-<li>HDF5 high-level APIs, <code>hdf5_hl.dll</code>, <code>libhdf5_hl.so</code> or <code>libhdf5_hl.dylib</code></li>
-<li>Gzip compression, <code>zlib1.dll</code> (Windows only)</li>
-<li>The C-runtime of the Visual Studio version used to build the former, e.g., <code>msvcrXXX.dll</code> for Visual Studio 2017 (Windows only)</li>
-</ul>
-<h3 id="linux">Linux</h3>
-<p>Everything you need should be included in the NuGet package.</p>
-<h3 id="mac-os">Mac OS</h3>
-<p>Everything you need should be included in the NuGet package.</p>
-<h3 id="microsoft-windows">Microsoft Windows</h3>
-<p>All native dependencies, built with <a href="https://support.hdfgroup.org/HDF5/faq/threadsafe.html">thread-safety enabled</a>,
-are included in the NuGet package.
-You additionally require the Visual Studio C-runtime, which is available from Microsoft as <a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">Visual C++ Redistributable Packages for Visual Studio 2017</a>.
-In the unlikely event that they aren't already installed on your system, go get 'em!
-(See <a href="https://msdn.microsoft.com/en-us/library/ms235299.aspx">this link</a> for the rationale behind not distributing the Visual Studio C-runtime in the NuGet package.)</p>
+<h2 id="native-dependencies">Native dependencies</h2>
+<p>The HDF5 native libraries for all supported are included in the NuGet package.
+For Windows, you additionally require the Visual C++ runtime, which is available from Microsoft as <a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">Visual C++ Redistributable Packages for Visual Studio 2017</a>.</p>
 <h2 id="license">License</h2>
-<p>HDF.PInvoke is part of <a href="https://www.hdfgroup.org/HDF5/">HDF5</a>. It is subject to
-the <em>same</em> terms and conditions as HDF5. Please review <a href="https://support.hdfgroup.org/ftp/HDF5/releases/COPYING">https://support.hdfgroup.org/ftp/HDF5/releases/COPYING</a>
-for the details. If you have any questions, please <a href="http://www.hdfgroup.org/about/contact.html">contact the HDF group</a>.</p>
+<p>HDF.PInvoke is part of <a href="https://www.hdfgroup.org/HDF5/">HDF5</a>.
+It is subject to the <em>same</em> terms and conditions as HDF5.
+Please review <a href="https://support.hdfgroup.org/ftp/HDF5/releases/COPYING">https://support.hdfgroup.org/ftp/HDF5/releases/COPYING</a> for the details. If you have any questions, please <a href="http://www.hdfgroup.org/about/contact.html">contact the HDF group</a>.</p>
 <h2 id="supporting-hdfpinvoke">Supporting HDF.PInvoke</h2>
-<p>The best way to support HDF.PInvoke is to contribute to it either by reporting
-bugs, writing documentation (e.g., the <a href="https://github.com/HDFGroup/HDF.PInvoke/wiki/Cookbook">cookbook</a>),
-or sending pull requests.</p>
+<p>The best way to support HDF.PInvoke is to contribute to it either by reporting bugs, writing documentation (e.g., the <a href="https://github.com/HDFGroup/HDF.PInvoke/wiki/Cookbook">cookbook</a>), or sending pull requests.</p>
 <hr>
 </article>
           </div>
@@ -127,7 +115,7 @@ or sending pull requests.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/surban/HDF.PInvoke/blob/bd0f2c58be9259ef95e305272be579d5f687d8f4/doc/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/surban/HDF.PInvoke/blob/0369c016e33826f1f6de64b94fa24ecb38f2c334/doc/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
